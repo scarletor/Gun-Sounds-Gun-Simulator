@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using System;
 public class AdManager : MonoBehaviour
 {
 
@@ -28,6 +28,13 @@ public class AdManager : MonoBehaviour
     }
 
 
+
+    public void CallVideoAd(Action cb=null)
+    {
+
+        
+
+    }
 
 
 }

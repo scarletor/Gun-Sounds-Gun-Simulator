@@ -22,14 +22,14 @@ public class DisplayGunList_GunSelect : MonoBehaviour
 
     public void SetupSelf()
     {
-        var index = 0;
+        //var index = 0;
 
-        foreach (Transform gun in gunImageListParent.transform)
-        {
-            gun.transform.GetChild(0).GetComponent<Image>().sprite = gunSpriteList[index];      //gun sprite
-            gun.transform.GetChild(0).GetComponent<Image>().SetNativeSize();
-            index++;
-        }
+        //foreach (Transform gun in gunImageListParent.transform)
+        //{
+        //    gun.transform.GetChild(0).GetComponent<Image>().sprite = gunSpriteList[index];      //gun sprite
+        //    gun.transform.GetChild(0).GetComponent<Image>().SetNativeSize();
+        //    index++;
+        //}
     }
 
     public GameObject gunImageListParent;

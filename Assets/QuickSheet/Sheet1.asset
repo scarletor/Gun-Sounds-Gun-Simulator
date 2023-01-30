@@ -1,0 +1,1717 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e5acb59cbfd63740988550eac9e6482, type: 3}
+  m_Name: Sheet1
+  m_EditorClassIdentifier: 
+  SheetName: Assets/QuickSheet/info_gun.xlsx
+  WorksheetName: Sheet1
+  dataArray:
+  - index: 0
+    name: 
+    type: 
+    placeoforigin: 
+    inservice: 
+    designer: 
+    designed: 
+    manufacturer: 
+    produced: 
+    mass: 
+    length: 
+    barrellength: 
+    cartridge: 
+    caliber: 
+    rateoffire: 
+    muzzlevelocity: 
+    effectivefiringrange: 
+    maximumfiringrange: 
+    feedsystem: 
+    sights: 
+    bullet: 
+  - index: 1
+    name: m16
+    type: Assault rifle
+    placeoforigin: United States
+    inservice: "1964\u2013present"
+    designer: 'Eugene Stoner '
+    designed: 1959
+    manufacturer: Colt's Manufacturing Company
+    produced: "1963\u2013present"
+    mass: "unloaded: 8.31 lb (3.77 kg) \n8.81 lb (4.00 kg) (loaded with 30 rounds
+      and sling)\n"
+    length: "39.61\_in (1,006\_mm)"
+    barrellength: "20\_in (508\_mm)"
+    cartridge: "5.56\xD745\_mm NATO "
+    caliber: "5.56\_mm (.223\_in)"
+    rateoffire: '700-950 rounds/min cyclic sustained '
+    muzzlevelocity: "3,150\_ft/s (960\_m/s) (M855A1 round)"
+    effectivefiringrange: '550 m (601 yd) (point target)
+
+      800 m (875 yd) (area
+      target)
+
+'
+    maximumfiringrange: "3,600\_m (3,937\_yd)"
+    feedsystem: "STANAG magazine \n20-round detachable box magazine: \n0.211 lb (96
+      g) empty / 0.738 lb (335 g) full \n30-round detachable box magazine: \n0.257
+      lb (117 g) empty / 1.06 lb (480 g) full)\n60-round detachable box magazine
+      \nBeta C-Mag 100-round drum magazine: \n2.20 lb (1,000 g) empty / 4.81 lb (2,180
+      g) full)\n"
+    sights: 'Iron sights:
+
+      Rear: aperture; L-type flip
+
+      Front: wing-protected
+      post
+
+      Various aiming optics
+
+'
+    bullet: 1
+  - index: 2
+    name: Barrett M82
+    type: Anti-materiel rifle
+    placeoforigin: United States
+    inservice: "1989\u2013present"
+    designer: Ronnie Barrett
+    designed: 1980
+    manufacturer: Barrett Firearms Manufacturing
+    produced: "1982\u2013present"
+    mass: "29.7\_lb (13.5\_kg) to 32.7\_lb (14.8\_kg)"
+    length: "48\_in (120\_cm) to 57\_in (140\_cm)"
+    barrellength: "20\_in (51\_cm) to 29\_in (74\_cm)"
+    cartridge: ' 50 BMG
+
+      416 Barrett
+
+'
+    caliber: 50 caliber
+    rateoffire: 
+    muzzlevelocity: "2,799\_ft/s (853\_m/s)"
+    effectivefiringrange: "1,969\_yd (1,800\_m)"
+    maximumfiringrange: 
+    feedsystem: ' 5- or 10-round detachable box magazine'
+    sights: ' MIL-STD-1913 rail'
+    bullet: 2
+  - index: 3
+    name: AK47
+    type: Assault rifle
+    placeoforigin: Soviet Union
+    inservice: "1949\u20131974 (Soviet Union)\n1949\u2013present (other countries)\n"
+    designer: Mikhail Kalashnikov
+    designed: "1946\u20131948"
+    manufacturer: Kalashnikov Concern and various others including Norinco
+    produced: "1948\u2013present"
+    mass: 'Without magazine:
+
+      3.47 kg (7.7 lb)
+
+      Magazine, empty:
+
+      0.43
+      kg (0.95 lb) (early issue)
+
+      0.33 kg (0.73 lb) (steel)
+
+      0.25 kg
+      (0.55 lb) (plastic)
+
+      0.17 kg (0.37 lb) (light alloy)
+
+'
+    length: 'Fixed wooden stock:
+
+      880 mm (35 in)
+
+      875 mm (34.4 in) folding
+      stock extended
+
+      645 mm (25.4 in) stock folded
+
+'
+    barrellength: 'Overall length:
+
+      415 mm (16.3 in)
+
+      Rifled bore length:
+
+      369
+      mm (14.5 in)
+
+'
+    cartridge: "7.62\xD739mm"
+    caliber: 
+    rateoffire: 'Cyclic rate of fire:
+
+      600 rds/min
+
+      Combat rate of fire:
+
+      Semi-auto
+      40 rds/min
+
+      Bursts 100 rds/min
+
+'
+    muzzlevelocity: "715\_m/s (2,350\_ft/s)"
+    effectivefiringrange: "350\_m (380\_yd)"
+    maximumfiringrange: 
+    feedsystem: '20-round, 30-round detachable box magazine
+
+      There are also
+      40-round, 75-round drum magazines available'
+    sights: "100\u2013800\_m adjustable iron sights\nSight radius:\n378\_mm (14.9\_in)"
+    bullet: 1
+  - index: 4
+    name: 'ArmaLite AR-15 '
+    type: ' Assault rifle'
+    placeoforigin: ' United States'
+    inservice: "1962\u20131963"
+    designer: " \n\n    Eugene Stoner \n    Jim Sullivan\n    Bob Fremont"
+    designed: 1956
+    manufacturer: "    ArmaLite\n    Colt's Manufacturing Company"
+    produced: " 1959\u20131964"
+    mass: " 6.55\_lb (2.97\_kg) with 20-round magazine"
+    length: " 39\_in (991\_mm)"
+    barrellength: " 20\_in (508\_mm)"
+    cartridge: Cartridge .223 Remington
+    caliber: 
+    rateoffire: 
+    muzzlevelocity: " 3,300\_ft/s (1,006\_m/s)"
+    effectivefiringrange: "500\_yd (457\_m)"
+    maximumfiringrange: 
+    feedsystem: 
+    sights: ' Iron sights'
+    bullet: 1
+  - index: 5
+    name: AWN
+    type: ' Sniper rifle'
+    placeoforigin: ' United Kingdom'
+    inservice: "1982 (L96A1), 1988 (AW), 1990\u2013presen"
+    designer: 
+    designed: ' 1982 (PM), 1983 (AW)'
+    manufacturer: ' Accuracy International'
+    produced: " 1982\u2013present"
+    mass: " 6.5\_kg (14.3\_lb)"
+    length: " 1,180\_mm (46.5\_in)"
+    barrellength: "660\_mm (26.0\_in)"
+    cartridge: " 7.62\xD751mm NATO (.308 Winchester)\n\n.300 Winchester Magnum\n.338
+      Lapua Magnum"
+    caliber: 
+    rateoffire: 
+    muzzlevelocity: " 850\_m/s (2,790\_ft/s)"
+    effectivefiringrange: " 800\_m (870\_yd)"
+    maximumfiringrange: "3,943\_m (4,312\_yd)"
+    feedsystem: ' 10-round double stack detachable box magazine (.308) 5-round single
+      stack detachable box magazine (.300, .338)'
+    sights: ' detachable aperture type iron sights
+
+      day or night optics'
+    bullet: 2
+  - index: 6
+    name: 'Star Model BM '
+    type: ' Semi-Automatic Pistol'
+    placeoforigin: Spain
+    inservice: 
+    designer: 
+    designed: 
+    manufacturer: ' Star Bonifacio Echeverria, S.A.'
+    produced: " 1972\u20131992"
+    mass: 965 grams (34 ounces)
+    length: 182 mm (7.17")
+    barrellength: ' 99 mm (3.90")'
+    cartridge: 
+    caliber: ' 9mm Parabellum'
+    rateoffire: 
+    muzzlevelocity: 
+    effectivefiringrange: 
+    maximumfiringrange: 
+    feedsystem: ' 8-round box magazine'
+    sights: Fixed sights
+    bullet: 3
+  - index: 7
+    name: Desert Eagle
+    type: ' Semi-automatic pistol'
+    placeoforigin: ' United States/Israel'
+    inservice: 
+    designer: ' Magnum Research and Israel Military Industries'
+    designed: " 1979\u20131982"
+    manufacturer: " Israel Military Industries (1982\u20131995), Saco Defense (1995\u20131998),
+      Israel Military Industries (1998\u20132005), Magnum Research and Israel Weapon
+      Industries (2005\u20132009), Magnum Research (2009\u2013current)"
+    produced: "1983\u2013present"
+    mass: " \n\nMark VII\n\n    3.9\_lb (1,769.0\_g) (.357 Magnum)\n    4.2\_lb (1,905.1\_g)
+      (.44 Magnum)\n\nMark XIX\n\n    4.4\_lb (1,995.8\_g)"
+    length: " Mark VII\n\n    10.6\_in (269.2\_mm) (6in barrel)\n\nMark XIX\n\n   
+      10.75\_in (273.1\_mm) (6in barrel)\n    14.75\_in (374.6\_mm) (10in barrel)"
+    barrellength: " 6\_in (152.4\_mm), 10\_in (254.0\_mm)\n\nL5\n\n    5\_in (127.0\_mm)"
+    cartridge: " \n\n    .50 Action Express\n    .44 Magnum\n    .440 Cor-Bon\n   
+      .429 DE[3]\n    .41 Magnum\n    .357 Magnum\n    .357/44 Bain & Davis (IMI
+      prototype only)"
+    caliber: 
+    rateoffire: 
+    muzzlevelocity: ' 1542 ft/s (470 m/s) (.50AE)'
+    effectivefiringrange: 
+    maximumfiringrange: 201 meters (220 yd)
+    feedsystem: " Detachable stick magazine; capacities:\n\n    9 rounds (.357)\n   
+      8 rounds (.41 and .44)\n    7 rounds (.429 DE, .440 Cor-Bon and .50 AE)"
+    sights: ' Iron sights and optional optics'
+    bullet: 3
+  - index: 8
+    name: FAMAS
+    type: ' Bullpup assault rifle'
+    placeoforigin: ' France'
+    inservice: " 1978\u2013present"
+    designer: ' Paul Tellie'
+    designed: " 1967\u20131971"
+    manufacturer: ' GIAT Industries'
+    produced: " F1: 1975\u20132000\nG2: 1994\u20132000"
+    mass: "    3.61\_kg (7.96\_lb) (F1)\n    3.8\_kg (8.4\_lb) (G2)"
+    length: " 757\_mm (29.8\_in)"
+    barrellength: " 488\_mm (19.2\_in)\n"
+    cartridge: " 5.56\xD745mm NATO"
+    caliber: 
+    rateoffire: "900\u20131,100 rounds/min"
+    muzzlevelocity: "    930\_m/s (3,100\_ft/s) (F1)\n    925\_m/s (3,030\_ft/s)
+      (G2)"
+    effectivefiringrange: "    300 m (\"F1\")\n    450 m (\"G2\")"
+    maximumfiringrange: ' 3200 meters'
+    feedsystem: "    25-round detachable box magazine (F1)\n    30-round detachable
+      box magazine (STANAG) (G2)"
+    sights: ' Rear aperture fitted with tritium night inserts, front post'
+    bullet: 1
+  - index: 9
+    name: SCAR-SSR
+    type: Designated marksman rifle/Sniper rifle
+    placeoforigin: ' Belgium'
+    inservice: " 2009\u2013present"
+    designer: ' FN Herstal / FN America'
+    designed: 2004
+    manufacturer: ' FN Herstal / FN America'
+    produced: " 2004\u2013present"
+    mass: "4.85\_kg (10.7\_lb) (Mk 20 SSR)"
+    length: "1,080\_mm (43\_in) stock extended, 1,029\_mm (40.5\_in) stock collapsed
+      (Mk 20 SSR)"
+    barrellength: "508\_mm (20.0\_in) (Mk 20 SSR)"
+    cartridge: 6.5mm Creedmoor (Mk 20 SSR)
+    caliber: 
+    rateoffire: ' '
+    muzzlevelocity: 
+    effectivefiringrange: 
+    maximumfiringrange: 
+    feedsystem: 
+    sights: ' Iron sights and Picatinny rail for various optical sights'
+    bullet: 2
+  - index: 10
+    name: SCAR-L
+    type: ' Assault rifle  '
+    placeoforigin: ' Belgium'
+    inservice: " 2009\u2013present"
+    designer: ' FN Herstal / FN America'
+    designed: 2004
+    manufacturer: ' FN Herstal / FN America'
+    produced: " 2004\u2013present"
+    mass: "3.29\_kg (7.3\_lb) (SCAR-L STD)"
+    length: "889\_mm (35.0\_in) stock extended, 635\_mm (25.0\_in) stock folded (SCAR-L
+      STD)"
+    barrellength: "355\_mm (14.0\_in) (SCAR-L STD)"
+    cartridge: " 5.56\xD745mm NATO"
+    caliber: 
+    rateoffire: " 550\u2013650 rounds/min"
+    muzzlevelocity: "SCAR-L: 2,870\_ft/s (870\_m/s) (M855), 2,630\_ft/s (800\_m/s)
+      (Mk 262)"
+    effectivefiringrange: "500\_m (550\_yd)"
+    maximumfiringrange: 
+    feedsystem: 'SCAR-L: STANAG box magazine'
+    sights: ' Iron sights and Picatinny rail for various optical sights'
+    bullet: 1
+  - index: 11
+    name: Glock 21
+    type: '
+
+      Semi-automatic pistol'
+    placeoforigin: ' Austria'
+    inservice: " 1982\u2013present"
+    designer: ' Gaston Glock'
+    designed: " 1979\u20131982"
+    manufacturer: ' Glock Ges.m.b.H.'
+    produced: " 1982\u2013present"
+    mass: 
+    length: 
+    barrellength: 
+    cartridge: " \n\n    9\xD719mm Parabellum\n    10mm Auto\n    .22 LR\n    .357
+      SIG\n    .380 ACP\n    .40 S&W\n    .45 ACP\n    .45 GAP\n    With aftermarket
+      conversion\n    .50 GI\n    9\xD718mm Makarov\n    .460 Rowland\n    .400 Corbon\n   
+      .45 Super\n    .40 Super\n    9\xD725mm Dillon\n\n"
+    caliber: 
+    rateoffire: 
+    muzzlevelocity: " 375\_m/s (1,230\_ft/s)"
+    effectivefiringrange: " 50\_m (55\_yd)"
+    maximumfiringrange: 
+    feedsystem: ' 6-, 10-, 13-, 15-, 17-, 19-, 24-, 31-, 33-, or 40-round detachable
+      box magazine, or 50- or 100-round detachable drum magazine'
+    sights: 
+    bullet: 3
+  - index: 12
+    name: M4
+    type: ' Assault rifle'
+    placeoforigin: United States
+    inservice: " 1994\u2013present"
+    designer: ' Colt Manufacturing Company'
+    designed: " 1982\u20131993"
+    manufacturer: ' Colt Manufacturing Company'
+    produced: " 1987\u2013present"
+    mass: " 6.43\_lb (2.92\_kg) empty\n7.75\_lb (3.52\_kg) with 30 rounds and sling"
+    length: " 33\_in (838\_mm) (stock extended)\n29.75\_in (756\_mm) (stock retracted)"
+    barrellength: " 14.5\_in (368\_mm)"
+    cartridge: " 5.56\xD745mm NATO"
+    caliber: ' 5.56 mm (.223 in)'
+    rateoffire: " 700\u2013950 round/min cyclic"
+    muzzlevelocity: " 2,970\_ft/s (910\_m/s) (M855A1 round)[6]\n\n2,887\_ft/s (880\_m/s)
+      (M855 round)\n2,986\_ft/s (910\_m/s) (M193 round)"
+    effectivefiringrange: " 500\_m (550\_yd)"
+    maximumfiringrange: " 500\_m (550\_yd)"
+    feedsystem: ' 30-round box magazine or other STANAG magazines'
+    sights: ' Iron sights or various optics'
+    bullet: 1
+  - index: 13
+    name: M4A1
+    type: ' Assault Rifle
+
+      Carbine'
+    placeoforigin: ' United States'
+    inservice: " 2000\u2013present"
+    designer: ' Colt Defense, Daniel Defense'
+    designed: 1999
+    manufacturer: ' Colt Manufacturing Company'
+    produced: " 2000\u2013present"
+    mass: " 2.72\_kg (6.00\_lb)"
+    length: " 762\_mm (30.0\_in) stock extended\n679.4\_mm (26.75\_in) stock retracted"
+    barrellength: " 262\_mm (10.3\_in)"
+    cartridge: " 5.56\xD745mm NATO"
+    caliber: 
+    rateoffire: " 700\u2013950 round/min cyclic"
+    muzzlevelocity: " 2,585\_ft/s (788\_m/s)"
+    effectivefiringrange: ' 300 m (328 yd)'
+    maximumfiringrange: 
+    feedsystem: ' 20- or 30-round detachable STANAG magazine'
+    sights: ' Iron sights and various SOPMOD sights'
+    bullet: 1
+  - index: 14
+    name: M1911
+    type: ' Semi-automatic pistol'
+    placeoforigin: United States
+    inservice: " 1911\u2013present"
+    designer: ' John Browning'
+    designed: " \n\n    1911"
+    manufacturer: ' Colt Manufacturing Company'
+    produced: " 1911\u2013present"
+    mass: " 39\_oz (1,100\_g) empty, with magazine"
+    length: ' 8.5 in (216 mm)'
+    barrellength: " \n\n    Government model: 5.03 in (127 mm)\n    Commander model:
+      4.25 in (108 mm)\n    Officer model: 3.5 in (89 mm)\n\n"
+    cartridge: ' .45 ACP'
+    caliber: 
+    rateoffire: 
+    muzzlevelocity: " 830\_ft/s (253\_m/s)["
+    effectivefiringrange: " 50\_m (160\_ft)"
+    maximumfiringrange: 
+    feedsystem: ' 7-round or 8-round (.45 ACP) box magazine'
+    sights: 
+    bullet: 3
+  - index: 15
+    name: 'Mauser C96 '
+    type: " \nSemi-automatic pistol"
+    placeoforigin: ' German Empire'
+    inservice: " 1896\u20131961"
+    designer: "    Feederle brothers (Fidel, Friedrich, and Josef)\n    Paul Mauser"
+    designed: 1895
+    manufacturer: "    Mauser (Germany)\n    Taiyuan Arsenal, Taku Naval Arsenal
+      and Hanyang Arsenal (China)\n    Beistegui Hermanos and Astra-Unceta y Cia
+      SA (Spain)"
+    produced: " 1896\u20131937"
+    mass: "1.13\_kg (2\_lb 8\_oz)"
+    length: " \n\n    312\_mm (12.3\_in) (pre-Bolo)\n    271\_mm (10.7\_in) (post-Bolo)\n\n"
+    barrellength: "\n\n    140\_mm (5.5\_in) (pre-Bolo)\n    99\_mm (3.9\_in) (post-Bolo)\n\n"
+    cartridge: " \n\n    7.63\xD725mm Mauser\n    7.65\xD721 Parabellum (Rare)\n   
+      9\xD719mm Parabellum\n    .45 ACP (China)\n    9mm Mauser export (rare)\n   
+      8.15mm Mauser (experimental)[6]\n    8mm Gasser\n\n"
+    caliber: 
+    rateoffire: 
+    muzzlevelocity: "    425\_m/s (1,394\_ft/s) 7.63\xD725mm\n    350\_m/s (1,148\_ft/s)\n   
+      9\xD719mm"
+    effectivefiringrange: "150\u2013200\_m (160\u2013220\_yd)"
+    maximumfiringrange: 
+    feedsystem: " \n\n    10-round internal magazine fed by stripper clip\n    10-
+      or 20-round detachable box magazine (M712 Schnellfeuer and detachable magazine
+      variants)\n    20- or 40-round magazine (prototype M1917 trench carbine)"
+    sights: " V-notch rear tangent sight adjustable up to 1,000\_m (1,100\_yd), inverted
+      V front sight"
+    bullet: 3
+  - index: 16
+    name: MP5
+    type: ' Submachine gun'
+    placeoforigin: ' West Germany'
+    inservice: "1966\u2013present"
+    designer: " Tilo M\xF6ller, Manfred Guhring, Georg Seidl, Helmut Baureuter"
+    designed: " 1964\u20131966"
+    manufacturer: ' Heckler & Koch'
+    produced: " 1966\u2013present"
+    mass: " 2.54\_kg (5.6\_lb)"
+    length: " 680\_mm (27\_in)"
+    barrellength: " 225\_mm (8.9\_in)"
+    cartridge: "    9\xD719mm Parabellum (MP5A1, A2, A3, A4, A5)\n    10mm Auto (MP5/10)\n   
+      .40 S&W (MP5/40)"
+    caliber: 
+    rateoffire: ' 800 rounds/min '
+    muzzlevelocity: " 400\_m/s (1,312\_ft/s)"
+    effectivefiringrange: " 200\_m (656\_ft)"
+    maximumfiringrange: 
+    feedsystem: ' 15, 30, 40, or 50 round detachable box magazine[9] and 100-round
+      Beta C-Mag drum magazine'
+    sights: ' Iron sights. Rear: rotary drum; front: hooded post'
+    bullet: 3
+  - index: 17
+    name: PK machine gun
+    type: ' General-purpose machine gun
+
+      Squad automatic weapon
+
+      Medium
+      machine gun'
+    placeoforigin: ' Soviet Union'
+    inservice: " 1961\u2013present"
+    designer: ' Mikhail Kalashnikov'
+    designed: 1961
+    manufacturer: ' Degtyaryov plant'
+    produced: " 1961\u2013present"
+    mass: " 9\_kg (19.84\_lb) (gun + integral bipod)"
+    length: " 1,203\_mm (47.4\_in)"
+    barrellength: " 605\_mm (23.8\_in)"
+    cartridge: " 7.62\xD754mmR\n7.62x51mm NATO\n(For Arsenal MG1 Clones)"
+    caliber: 
+    rateoffire: ' 650 rounds/min'
+    muzzlevelocity: " 825\_m/s (2,707\_ft/s)"
+    effectivefiringrange: "1,000\_m (1,094\_yd) (100\u20131,500 m sight adjustments)"
+    maximumfiringrange: "3,800\_m (4,156\_yd)"
+    feedsystem: ' Non-disintegrating metal link 50-round belts in 100 and 200/250
+      round ammunition boxes'
+    sights: ' Tangent iron sights (default);
+
+      Optical, night-vision, thermal,
+      and radar sights'
+    bullet: 1
+  - index: 18
+    name: 'Colt Anaconda '
+    type: ' Revolver '
+    placeoforigin: ' United States'
+    inservice: 
+    designer: ' Colt''s Manufacturing Company'
+    designed: 
+    manufacturer: ' Colt''s Manufacturing Company'
+    produced: " 1990\u20132003\n2021\u2013present "
+    mass: "\n    47 oz. / 1.3kg (4 inch barrel)\n    53 oz. / 1.5kg (6 inch barrel)\n   
+      59 oz. / 1.7kg (8 inch barrel)"
+    length: "    9\u215D in / 24.5cm (4 inch barrel)\n    11\u215D in / 29.5cm (6
+      inch barrel)\n    13\u215D in / 34.6cm (8 inch barrel)"
+    barrellength: "    4 inch barrel (102 mm)\n    6 inch barrel (153 mm)\n    8
+      inch barrel (203 mm)"
+    cartridge: "    .44 Special\n    .44 Magnum\n    .45 Colt"
+    caliber: 
+    rateoffire: 
+    muzzlevelocity: 
+    effectivefiringrange: 
+    maximumfiringrange: 
+    feedsystem: ' Six round cylinder'
+    sights: ' Adjustable open iron sights'
+    bullet: 3
+  - index: 19
+    name: TEC-9
+    type: ' Semi-automatic pistol
+
+      Pistol-caliber carbine'
+    placeoforigin: " \n\n    Sweden/United States\n\n"
+    inservice: 
+    designer: ' George Kellgren'
+    designed: 
+    manufacturer: ' Intratec'
+    produced: " 1984\u20132001"
+    mass: " 1.23\u20131.4\_kg depending on model"
+    length: " 241\u2013317\_mm depending on model"
+    barrellength: " 76\u2013127\_mm depending on model"
+    cartridge: " 9\xD719mm Parabellum"
+    caliber: ' 9mm'
+    rateoffire: 
+    muzzlevelocity: " 1,181\_ft/s (360\_m/s)"
+    effectivefiringrange: " 50\_m (160\_ft)"
+    maximumfiringrange: 
+    feedsystem: 10-, 20-, 32-, 36- and 50-round box magazine, 72-round drum magazine
+    sights: ' Iron sight'
+    bullet: 3
+  - index: 20
+    name: UZI
+    type: ' Submachine gun'
+    placeoforigin: ' Israel'
+    inservice: "1954\u2013present"
+    designer: ' Uziel Gal'
+    designed: 1950
+    manufacturer: ' Israel Military Industries
+
+      Israel Weapon Industries'
+    produced: " 1950\u2013present"
+    mass: " 3.5\_kg (7.72\_lb)"
+    length: "    445\_mm (17.5\_in) stockless\n    470\_mm (18.5\_in) folding stock
+      collapsed\n    640\_mm (25\_in) folding stock extended[11]"
+    barrellength: " 260\_mm (10.2\_in)"
+    cartridge: " .22 LR\n.41 AE\n.45 ACP\n9\xD719mm Parabellum\n9\xD721mm IMI"
+    caliber: 
+    rateoffire: ' 600 rounds/min'
+    muzzlevelocity: " 400\_m/s (1,300\_ft/s) (9mm)"
+    effectivefiringrange: ' 200 m'
+    maximumfiringrange: 
+    feedsystem: "    10-round box magazine (.22 and .41 AE)\n    12-, 16-, or 22-round
+      box (.45 ACP)\n    20-, 25-, 32-, 40-, or 50-round box (9\xD719mm Parabellum)"
+    sights: ' Iron sights'
+    bullet: 3
+  - index: 21
+    name: Thompson
+    type: ' Submachine gun'
+    placeoforigin: ' United States'
+    inservice: " 1938\u20131971 (U.S. military)"
+    designer: ' John T. Thompson'
+    designed: " 1917\u20131920"
+    manufacturer: " \n\n    Auto-Ordnance Company (originally)\n    The Birmingham
+      Small Arms Company Limited\n    Colt\n    Savage Arms\n    RPB Industries\n\n"
+    produced: " 1921\u20131945"
+    mass: " \n\n    10.8\_lb (4.9\_kg) empty (Thompson M1928A1)\n    10\_lb (4.5\_kg)
+      empty (Thompson M1A1)\n\n"
+    length: " \n\n    33.7\_in (860\_mm) (M1928A1 with compensator)\n    31.9\_in
+      (810\_mm) (M1/M1A1)"
+    barrellength: " \n\n    10.52\_in (267\_mm)\n    12\_in (300\_mm) (with Cutts
+      compensator)\n\n"
+    cartridge: " \n\n    .45 ACP (11.43\xD723mm)\n    10mm Auto (Limited quantity
+      of FBI conversions)"
+    caliber: 
+    rateoffire: "700\u2013800rpm (M1928)[14]\n600-700rpm (M1A1)"
+    muzzlevelocity: " 935\_ft/s (285\_m/s)"
+    effectivefiringrange: ' 164 yds (150 m)'
+    maximumfiringrange: 
+    feedsystem: ' 20 or 30 round box magazine, 50 or 100 round drum magazine      
+      (M1 and M1A1 models do not accept drum magazines)'
+    sights: 
+    bullet: 3
+  - index: 22
+    name: UMP-45
+    type: ' Submachine gun'
+    placeoforigin: ' Germany'
+    inservice: " 2000\u2013present"
+    designer: 
+    designed: 1990s
+    manufacturer: ' Heckler & Koch'
+    produced: " 2000\u2013present"
+    mass: " Without magazine:\n\n    2.5 kilograms (5.4 lb) (UMP45)\n"
+    length: "    450 mm (17.7 inches), stock folded\n    690 mm (27.2 inches), stock
+      extended"
+    barrellength: ' 200 mm (8 inches)
+
+'
+    cartridge: " \n\n    .45 ACP (UMP45/USC)\n    "
+    caliber: 
+    rateoffire: ' 600 rounds/min'
+    muzzlevelocity: ' 285 m/s (935 ft/s) (.45 ACP)'
+    effectivefiringrange: "    100 m (9\xD719mm Parabellum)\n    65 m (.45 ACP)"
+    maximumfiringrange: 
+    feedsystem: 25-round detachable straight box magazine (UMP45)
+    sights: 
+    bullet: 3
+  - index: 23
+    name: 'XM8
+
+
+'
+    type: "\n    Assault rifle\n    Automatic rifle\n    Light machine gun\n    Sniper
+      rifle/Designated marksman rifle\n    Personal defense weapon\n\n"
+    placeoforigin: " \n\n    Germany\n    United States\n\n"
+    inservice: "2010\u2013present"
+    designer: 
+    designed: 2002
+    manufacturer: " \n\n    Heckler & Koch\n    Alliant Technosystems\n\n"
+    produced: " 2003\u2013present"
+    mass: "3.4\_kg (7.5\_lb)"
+    length: " 840\_mm (33\_in)"
+    barrellength: " 320\_mm (12.5\_in)"
+    cartridge: " 5.56\xD745mm NATO"
+    caliber: 
+    rateoffire: ' 750 rounds/min'
+    muzzlevelocity: ' approx. 900 m/s '
+    effectivefiringrange: 
+    maximumfiringrange: 
+    feedsystem: ' 30-round detachable box magazine, 100-round C-Mag drum magazine'
+    sights: ' ISM-V Unmagnified reflex sight (4x for DMR variant)'
+    bullet: 1
+  - index: 24
+    name: 'RPG-7 '
+    type: ' Rocket-propelled grenade launcher'
+    placeoforigin: ' Soviet Union'
+    inservice: "1961\u2013present"
+    designer: ' Bazalt'
+    designed: 1958
+    manufacturer: ' Bazalt and Degtyarev plant (Russian Federation)'
+    produced: " 1958\u2013present"
+    mass: ' 6.3 kg (13.9 lb) (without a telescopic sight)'
+    length: "7 kg (15.4 lb) (with PGO-7)\nLength 950\_mm (37.4\_in)"
+    barrellength: 
+    cartridge: 85mm
+    caliber: "40\_mm"
+    rateoffire: 
+    muzzlevelocity: " 115\_m/s (boost)\n300\_m/s (flight)"
+    effectivefiringrange: 330 m (PG-7V)
+    maximumfiringrange: " 700\_m (OG-7V)\n(self detonates at \u2248920\_m (1,000\_yd))"
+    feedsystem: 
+    sights: " PGO-7 (2.7\xD7), UP-7V Telescopic sight and 1PN51/1PN58 night vision
+      sights\nRed dot reflex sight"
+    bullet: 4
+  - index: 25
+    name: Winchester rifle
+    type: ' Lever action rifle'
+    placeoforigin: ' United States'
+    inservice: "1866\u20131945"
+    designer: 
+    designed: 1866
+    manufacturer: ' Winchester Repeating Arms Company'
+    produced: "1866\u2013present"
+    mass: " 9.5\_lb (4.3\_kg)"
+    length: "49.3\_in (125\_cm)"
+    barrellength: "30\_in (76\_cm)"
+    cartridge: 
+    caliber: ' .44 Henry
+
+      .44-40 Winchester
+
+      .38-40 Winchester
+
+      .32-20
+      Winchester
+
+      .22 Long Rifle'
+    rateoffire: 
+    muzzlevelocity: 
+    effectivefiringrange: 
+    maximumfiringrange: 
+    feedsystem: ' tube magazine, 7 to 14 rounds'
+    sights: ' Graduated rear sights
+
+      fixed-post front sights'
+    bullet: 2
+  - index: 26
+    name: "\u0160korpion"
+    type: ' Machine pistol
+
+      Submachine gun'
+    placeoforigin: ' Czechoslovak Socialist Republic'
+    inservice: " 1961\u2013present"
+    designer: " Miroslav Ryb\xE1\u0159"
+    designed: 1959
+    manufacturer: " \u010Cesk\xE1 zbrojovka Uhersk\xFD Brod, Zastava Arms"
+    produced: "1963\u20131979"
+    mass: "1.28\_kg (2.8\_lb) (vz. 61 E)"
+    length: " 517\_mm (20.4\_in) stock extended / 270\_mm (10.6\_in) stock folded"
+    barrellength: 
+    cartridge: " .32 ACP (7.65\xD717mm Browning SR)"
+    caliber: 
+    rateoffire: ' 850 rounds/min (vz. 61, vz. 61 E)'
+    muzzlevelocity: " 320\_m/s (1,050\_ft/s)"
+    effectivefiringrange: " 50\u2013150\_m (160\u2013490\_ft)"
+    maximumfiringrange: 
+    feedsystem: ' 10 or 20-round curved magazine, aftermarket 30-round magazine,
+      straight box magazine in 9 mm variants'
+    sights: " Adjustable front post, flip-up rear sight\n148\_mm (5.8\_in) sight
+      radius"
+    bullet: 3
+  - index: 27
+    name: 'MG 42 '
+    type: ' General-purpose machine gun'
+    placeoforigin: ' Nazi Germany'
+    inservice: " 1942\u2013present"
+    designer: ' Werner Gruner'
+    designed: 1942
+    manufacturer: "    Gro\xDFfu\xDF AG,\n    Mauser Werke AG\n    Wilhelm Gustloff
+      Stiftung\n    Steyr-Daimler-Puch\n    MAGET (Maschinenbau und Ger\xE4tebau
+      GmbH, Berlin-Tegel)"
+    produced: "1942\u20131945"
+    mass: " 11.6\_kg (25.57\_lb)"
+    length: " 1,220\_mm"
+    barrellength: "530\_mm "
+    cartridge: " 7.92\xD757mm Mauser"
+    caliber: 
+    rateoffire: " 1,200 rounds/min (varied between 900\u20131,500 rounds/min with
+      different bolts)\nPractical: 153 rounds/min Fully-automatic only"
+    muzzlevelocity: " 740\_m/s (2,428\_ft/s) (s.S. Patrone)"
+    effectivefiringrange: " 200\u20132,000\_m (219\u20132,187\_yd) sight adjustments\n3,500\_m
+      (3,828\_yd) with tripod and telescopic sight"
+    maximumfiringrange: " 4,700\_m (5,140\_yd)"
+    feedsystem: ' 50 or 250-round Patronengurt 33, 34, or 34/41 model belt
+
+      50-round
+      belt drum'
+    sights: ' Iron sights, antiaircraft sight or telescopic sights'
+    bullet: 1
+  - index: 28
+    name: RPK
+    type: ' Automatic rifle
+
+      Light machine gun
+
+      Squad automatic weapon'
+    placeoforigin: ' Soviet Union'
+    inservice: " 1961\u2013present"
+    designer: ' Mikhail Kalashnikov'
+    designed: 1960
+    manufacturer: ' Vyatskiye Polyany Machine-Building Plant'
+    produced: " 1961\u20131978"
+    mass: " 4.8\_kg (10.6\_lb) "
+    length: " 1,040\_mm (40.9\_in) (stock extended) "
+    barrellength: " 590\_mm (23.2\_in)"
+    cartridge: " 7.62\xD739mm M43\n5.45\xD739mm\n5.56\xD745mm NATO (For Arsenal LMG
+      version)"
+    caliber: 
+    rateoffire: ' 600 rounds/min'
+    muzzlevelocity: " 745\_m/s (2,444\_ft/s)"
+    effectivefiringrange: " 100\u20131,000 m sight adjustments"
+    maximumfiringrange: 
+    feedsystem: ' 30-, 40-round curved magazine, 75-round drum magazine'
+    sights: " Iron sights: semi-shrouded front post and rear sliding tangent with
+      an adjustable notch\nSight radius: 555\_mm (21.9\_in)"
+    bullet: 1
+  - index: 29
+    name: 'Walther MP '
+    type: ' Machine pistol'
+    placeoforigin: ' West Germany'
+    inservice: " 1963\u2013present"
+    designer: 
+    designed: 
+    manufacturer: ' Carl Walther GmbH'
+    produced: " 1963\u20141985"
+    mass: '2.8 kg (6.17 lb) '
+    length: " (w/stock open/closed):\n\n    659 / 373 mm (25.94/14.7 in) "
+    barrellength: 173 mm (6.8 in)
+    cartridge: " 9\xD719mm Parabellum"
+    caliber: 
+    rateoffire: ' 550 rounds/min'
+    muzzlevelocity: 
+    effectivefiringrange: 100 m
+    maximumfiringrange: 
+    feedsystem: ' 32-round detachable box magazine'
+    sights: ' Iron sights'
+    bullet: 3
+  - index: 30
+    name: Spectre M4
+    type: ' Submachine gun'
+    placeoforigin: ' Italy'
+    inservice: 
+    designer: ' Roberto Teppa & Claudio Gritti'
+    designed: 1980
+    manufacturer: " SITES (Societ\xE0 Italiana Tecnologie Speciali S.p.A., later
+      GRECO SPORT, S.A.)"
+    produced: "1984\u20132001"
+    mass: ' 2.9 kg (6.393 lb)'
+    length: "    350\_mm (13.78\_in), folded\n    580\_mm (22.835\_in), unfolded"
+    barrellength: "130\_mm (5.12\_in)"
+    cartridge: " 9\xD719mm Parabellum\n9\xD721mm IMI\n.40 S&W\n.45 ACP"
+    caliber: 
+    rateoffire: ' 850 rounds/min'
+    muzzlevelocity: 
+    effectivefiringrange: " 150\_m (492\_ft)"
+    maximumfiringrange: 
+    feedsystem: ' 30-round box or 50-round casket magazines,
+
+      magazines for
+      civilian-grade versions were factory-modified for 15-round, 10-round or 5-round
+      capacity.'
+    sights: Iron sights
+    bullet: 3
+  - index: 31
+    name: 'SA80 '
+    type: ' Bullpup assault rifle      Carbine'
+    placeoforigin: ' United Kingdom'
+    inservice: " 1985\u2013present"
+    designer: 
+    designed: " 1970s\u20131980s"
+    manufacturer: ' RSAF Enfield, Royal Ordnance, Heckler and Koch'
+    produced: " 1985\u20131994"
+    mass: " 4.98 kilograms (11.0\_lb) (L85A2 with SUSAT sight and loaded 30-round
+      magazine)"
+    length: " 785 millimetres (30.9\_in) "
+    barrellength: " 518 millimetres (20.4\_in) "
+    cartridge: " 5.56\xD745mm NATO"
+    caliber: 
+    rateoffire: " 610\u2013775 rpm"
+    muzzlevelocity: " 930\u2013940\_m/s (3,100\u20133,100\_ft/s"
+    effectivefiringrange: "300\u20131,200 m depending on weapon on usage"
+    maximumfiringrange: 
+    feedsystem: ' 30-round detachable STANAG magazine
+
+      30-round detachable
+      polymer Magpul EMAG'
+    sights: ' Telescopic SUSAT, ACOG and ELCAN LDS scopes, aperture iron sights'
+    bullet: 1
+  - index: 32
+    name: 'Heckler & Koch G11 '
+    type: ' Assault rifle'
+    placeoforigin: ' West Germany'
+    inservice: 
+    designer: ' Heckler & Koch'
+    designed: " 1968\u20131990"
+    manufacturer: ' Heckler & Koch'
+    produced: 
+    mass: "3.65\_kg (8.0\_lb) empty, 4.3\_kg (9.5\_lb) loaded with 90 rounds (G11K2)"
+    length: " 750\_mm (30\_in)"
+    barrellength: " 540\_mm (21\_in) (Not including chamber, 155 mm per twist)"
+    cartridge: " \n\n    4.73\xD733mm caseless ammunition (DM11): G11 K2, LMG11\n   
+      4.7mm, 4.3mm, 4.9mm for other G11 prototypes\n    4.92x34mm[1]\n    4.73\xD725mm
+      caseless: NBW"
+    caliber: 
+    rateoffire: " \n\n    460 rounds/min (full auto) \n    2100 rounds/min (3-round
+      burst) "
+    muzzlevelocity: " C. 930\_m/s (3,100\_ft/s)"
+    effectivefiringrange: ' 400 m'
+    maximumfiringrange: 
+    feedsystem: ' 45- or 50-round detachable box magazine'
+    sights: ' Integrated optical sight'
+    bullet: 1
+  - index: 33
+    name: 'Atchisson AA-12 '
+    type: ' Automatic combat shotgun'
+    placeoforigin: ' United States'
+    inservice: 
+    designer: ' Maxwell Atchisson (1930-2003); further developed by Military Police
+      Systems, Inc.'
+    designed: 'Original design: 1972
+
+      MPS design: 2005'
+    manufacturer: ' Maxwell Atchisson'
+    produced: 
+    mass: ' 5.2 kg less magazine. 7.3 kg with loaded 32-round drum (original version)'
+    length: ' 991 mm (Atchisson Assault Shotgun, 1972)
+
+      966 mm (AA-12, 2006)'
+    barrellength: ' 457 mm'
+    cartridge: ' 12 Gauge'
+    caliber: 
+    rateoffire: ' 300 rounds/min'
+    muzzlevelocity: " 350\_m/s (1,100\_ft/s)"
+    effectivefiringrange: ' 100 m (12 gauge slug)'
+    maximumfiringrange: ' 200 m (FRAG-12 ammunition)'
+    feedsystem: ' 8 rounds in box magazine or 20 rounds in drum magazines'
+    sights: " Iron sight, 2\xD7 zoom optical scope"
+    bullet: 5
+  - index: 34
+    name: 'AK-102 '
+    type: ' Assault rifle, carbine'
+    placeoforigin: ' Russia'
+    inservice: " 1995\u2013present"
+    designer: ' Mikhail Kalashnikov'
+    designed: 1994
+    manufacturer: ' Kalashnikov Concern'
+    produced: 
+    mass: " 3.0\_kg (6.6\_lb) without magazine"
+    length: " 824\_mm (32.4\_in)"
+    barrellength: " 314\_mm (12.4\_in)"
+    cartridge: " 5.56\xD745mm NATO"
+    caliber: 5.56mm
+    rateoffire: ' 600 rounds/minute'
+    muzzlevelocity: " 850\_m/s (2,789\_ft/s)"
+    effectivefiringrange: " 500\_m (550\_yd)"
+    maximumfiringrange: 
+    feedsystem: ' 30-round detachable box magazine'
+    sights: ' Adjustable iron sights, Equipped with optical plate for attaching various
+      scopes'
+    bullet: 1
+  - index: 35
+    name: 'Benelli M4 Super 90 '
+    type: ' Semi-automatic combat shotgun'
+    placeoforigin: ' Italy'
+    inservice: " 1999\u2013present"
+    designer: ' Benelli Armi SPA'
+    designed: 1998
+    manufacturer: ' Benelli Armi SPA'
+    produced: " 1999\u2013present"
+    mass: " 3.82\_kg (8.42\_lb)"
+    length: " 889\_mm (35.0\_in) (stock retracted)\n1,010\_mm (40\_in) (stock extended)"
+    barrellength: " 470\_mm (18.5\_in)"
+    cartridge: 
+    caliber: ' 12-gauge'
+    rateoffire: 
+    muzzlevelocity: " 408\_m/s (1,340\_ft/s)"
+    effectivefiringrange: "55\_yd (50\_m; 165\_ft)"
+    maximumfiringrange: " 164\_yd (150\_m; 492\_ft) for solid slugs"
+    feedsystem: " 5+1 (civilian) or 7+1 (Military, LE) tubular magazine (using 2+3\u20444\"
+      shells)"
+    sights: ' Ghost ring, Picatinny rail for optical sights'
+    bullet: 5
+  - index: 36
+    name: M2 Browning
+    type: ' Heavy machine gun'
+    placeoforigin: ' United States'
+    inservice: " 1933\u2013present"
+    designer: ' John M. Browning'
+    designed: 1918
+    manufacturer: " \n\n    Current\n        Fabrique Nationale\n        General
+      Dynamics\n        Ohio Ordnance Works Inc.\n        U.S. Ordnance"
+    produced: " 1921\u2013present "
+    mass: " \n\n    38\_kg (84\_lb)\n    28\_kg (62\_lb) (AN/M2)\n    58\_kg (128\_lb)
+      with tripod and traverse and elevation mechanism (T&E)\n\n"
+    length: " 1,654\_mm (65.1\_in)\n1,429\_mm (56.3\_in) (AN/M2)"
+    barrellength: " 1,143\_mm (45.0\_in)\n910\_mm (35.8\_in) (AN/M2)"
+    cartridge: " .50 BMG (12.7\xD799mm NATO)"
+    caliber: 
+    rateoffire: " \n\n    450\u2013600 rounds/min (M2HB)[8][9]\n    750\u2013850
+      rounds/min (AN/M2)\n    1,200\u20131,300 rounds/min (AN/M3)"
+    muzzlevelocity: " 2,910\_ft/s (890\_m/s) for M33 ball"
+    effectivefiringrange: " 1,800\_m (2,000\_yd)"
+    maximumfiringrange: "7,400\_m (8,100\_yd)"
+    feedsystem: ' Belt-fed (M2 or M9 links)'
+    sights: 
+    bullet: 1
+  - index: 37
+    name: Colt Delta Elite
+    type: ' Semi-automatic pistol'
+    placeoforigin: ' United States'
+    inservice: ' Various Sheriffs and Law Enforcement on the United States border'
+    designer: ' Colt''s Manufacturing Company based on a John Browning design'
+    designed: 1987
+    manufacturer: ' Colt Manufacturing Company'
+    produced: "1987\u20131996"
+    mass: ' 2.4 lb (1,105 g) empty, w/ magazine'
+    length: ' 8.25 in (210 mm)'
+    barrellength: ' 5.03 in (127 mm)'
+    cartridge: ' 10mm Auto'
+    caliber: 
+    rateoffire: ' Semi-automatic'
+    muzzlevelocity: ' 1329 ft/s (405 m/s)'
+    effectivefiringrange: 109 yd (100 m)
+    maximumfiringrange: 
+    feedsystem: ' 8+1 detachable-box magazine'
+    sights: ' Fixed iron'
+    bullet: 3
+  - index: 38
+    name: Colt Detective Special
+    type: ' Revolver'
+    placeoforigin: ' United States'
+    inservice: 
+    designer: ' Colt Manufacturing Company'
+    designed: 
+    manufacturer: ' Colt Manufacturing Company'
+    produced: " First Series: 1927\u20131946\nSecond Series: 1947\u20131972\nThird
+      Series: 1973\u20131986\nFourth Series: 1992\u20131996"
+    mass: ' 21 oz.'
+    length: " 63\u20444 in (2 inch), 73\u20444 in (3 inch)"
+    barrellength: ' 2 inch, 3 inch'
+    cartridge: ' .32 New Police
+
+      .38 New Police
+
+      .38 Special'
+    caliber: 
+    rateoffire: 
+    muzzlevelocity: 
+    effectivefiringrange: 
+    maximumfiringrange: 
+    feedsystem: ' 6-round cylinder'
+    sights: ' Fixed open sights'
+    bullet: 3
+  - index: 39
+    name: Colt Python
+    type: ' Revolver'
+    placeoforigin: ' United States'
+    inservice: 
+    designer: ' Colt Manufacturing Company'
+    designed: ' '
+    manufacturer: ' Colt Manufacturing Company'
+    produced: "1955\u20132005\n2020\u2013present"
+    mass: " 38 ounces (1.1\_kg) to 48 ounces (1.4\_kg)"
+    length: 
+    barrellength: 
+    cartridge: ' .357 Magnum'
+    caliber: 
+    rateoffire: 
+    muzzlevelocity: 
+    effectivefiringrange: 
+    maximumfiringrange: ' 200+ yards'
+    feedsystem: ' Six-round cylinder'
+    sights: Rear adj.; front ramp
+    bullet: 3
+  - index: 40
+    name: CZ 75
+    type: " \n\n    Semi-automatic pistol\n    Machine pistol (select-fire variants)\n\n"
+    placeoforigin: ' Czechoslovak Socialist Republic'
+    inservice: " 1976\u2013present"
+    designer: " Josef and Franti\u0161ek Kouck\xFD"
+    designed: 1975
+    manufacturer: " \u010Cesk\xE1 zbrojovka"
+    produced: " 1976\u2013present"
+    mass: " 1.12\_kg (2.5\_lb)"
+    length: " 206.3\_mm (8.12\_in)"
+    barrellength: " 120\_mm (4.7\_in)"
+    cartridge: " \n\n    9\xD719mm Parabellum\n    9\xD721mm\n\n"
+    caliber: 
+    rateoffire: " \n\n    semi-automatic\n    CZ 75 Automatic: 1,000 RPM\n\n"
+    muzzlevelocity: 
+    effectivefiringrange: " 25\_m (for 9\_mm CZ-75 family and CZ-75 automatic)"
+    maximumfiringrange: 
+    feedsystem: " detachable box magazine, 10\u201326 rds depending on version and
+      caliber"
+    sights: ' Front blade, rear square notch'
+    bullet: 3
+  - index: 41
+    name: Bren Ten
+    type: ' Semi-automatic pistol'
+    placeoforigin: ' United States'
+    inservice: 
+    designer: ' Michael Dixon, Thomas Dornaus'
+    designed: 1983
+    manufacturer: ' Dornaus & Dixon Enterprises, Inc.'
+    produced: " 1983\u20131986"
+    mass: " 38\_oz (1,100\_g) (Standard Models)\n33\_oz (940\_g) (Compact Model)"
+    length: " 8.75\_in (222\_mm) (Standard Models)\n7.75\_in (196.9\_mm) (Compact
+      Models)"
+    barrellength: " 5.00\_in (127.0\_mm) (Standard Models)\n4.00\_in (101.6\_mm)
+      (Compact Models)"
+    cartridge: ' 10mm Auto
+
+      .45 ACP'
+    caliber: 
+    rateoffire: 
+    muzzlevelocity: 
+    effectivefiringrange: ' 50 m'
+    maximumfiringrange: 
+    feedsystem: ' 8 or 10 round box magazine'
+    sights: ' Adjustable 3-dot type; rear notch, front blade'
+    bullet: 3
+  - index: 42
+    name: '
+
+      FN F2000'
+    type: ' Bullpup assault rifle'
+    placeoforigin: ' Belgium'
+    inservice: " 2001\u2013present"
+    designer: 
+    designed: " 1995\u20132001"
+    manufacturer: ' FN Herstal'
+    produced: " 2001\u2013present"
+    mass: "3.6\_kg (7.9\_lb)"
+    length: "688\_mm (27.1\_in) "
+    barrellength: " \n\n    400\_mm (16\_in) (F2000)"
+    cartridge: " 5.56\xD745mm NATO"
+    caliber: 
+    rateoffire: ' 850 rounds/min'
+    muzzlevelocity: " 900\_m/s (2,953\_ft/s)"
+    effectivefiringrange: " 500\_m (1,600\_ft)"
+    maximumfiringrange: 
+    feedsystem: " Detachable box magazines; capacities:\n\n    10 rounds (restricted)\n   
+      30 rounds (standard STANAG)"
+    sights: " 1.6\xD7 magnified telescopic sight, notch back-up sight"
+    bullet: 1
+  - index: 43
+    name: FN FAL
+    type: ' Battle rifle'
+    placeoforigin: ' Belgium'
+    inservice: " 1953\u2013present"
+    designer: " Dieudonn\xE9 Saive"
+    designed: "1947\u201353"
+    manufacturer: "    FN Herstal\n    IMBEL"
+    produced: " 1953\u2013present (Production by FN stopped in 1988)"
+    mass: " 4.25\_kg (9.4\_lb)"
+    length: " 1,090\_mm (43\_in)"
+    barrellength: " 533\_mm (21.0\_in)"
+    cartridge: " 7.62\xD751mm NATO,\n.280 British\n7mm Liviano"
+    caliber: 
+    rateoffire: " 650\u2013700 rounds/min"
+    muzzlevelocity: " 840\_m/s (2,755.9\_ft/s)"
+    effectivefiringrange: ' 600 m'
+    maximumfiringrange: 
+    feedsystem: ' 20- or 30-round detachable box magazine. 50-round drum magazines
+      are also available'
+    sights: " \n\n    ramped aperture rear sight (adjustable from 200 to 600\_m/yd
+      in 100\_m/yd increments)\n    post front sight\n\n"
+    bullet: 1
+  - index: 44
+    name: 'Browning Hi-Power '
+    type: ' Semi-automatic pistol'
+    placeoforigin: " \n\n    Belgium\n    United States\n\n"
+    inservice: "1935\u2013present"
+    designer: " \n\n    John Browning\n    Dieudonn\xE9 Saive\n\n"
+    designed: " 1914\u20131935"
+    manufacturer: " \n\n    Fabrique Nationale (FN)\n    John Inglis & Co.\n    Browning
+      Arms\n\n"
+    produced: " 1935\u20132018, 2022"
+    mass: ' 1 kg (2.2 lb)'
+    length: ' 1 kg (2.2 lb)'
+    barrellength: ' 119 mm (4.7 in)'
+    cartridge: " \n\n    7.65\xD721mm Parabellum\n    9\xD719mm Parabellum\n    .40
+      S&W"
+    caliber: 
+    rateoffire: ' Semi-automatic'
+    muzzlevelocity: " 335\_m/s (1,100\_ft/s) (9mm)"
+    effectivefiringrange: 50 m (54.7 yd)
+    maximumfiringrange: 
+    feedsystem: " Detachable box magazine\n\n    10, 13, 15 or 17 rounds (9mm)\n   
+      20 or 30 rounds made by Rhodesia (9mm)\n    10 rounds (.40 S&W)"
+    sights: 
+    bullet: 3
+  - index: 45
+    name: FN Five-seven
+    type: ' Semi-automatic pistol'
+    placeoforigin: ' Belgium'
+    inservice: " 2000\u2013present"
+    designer: ' FN Herstal'
+    designed: " 1993\u201398"
+    manufacturer: ' FN Herstal'
+    produced: " 1998\u2013present"
+    mass: "610\_g (1.3\_lb) empty\n744\_g (1.6\_lb) loaded"
+    length: " 208\_mm (8.2\_in)"
+    barrellength: " 122\_mm (4.8\_in)["
+    cartridge: " FN 5.7\xD728mm"
+    caliber: 
+    rateoffire: ' Semi-automatic'
+    muzzlevelocity: "    762\_m/s (2,500\_ft/s) (SS198)\n    625\_m/s (2,050\_ft/s)
+      (SS195)\n    520\_m/s (1,700\_ft/s) (SS197)"
+    effectivefiringrange: " 50\_m (55\_yd)"
+    maximumfiringrange: " 1,510\_m (1,651\_yd)"
+    feedsystem: " Detachable box magazine; capacities:\n\n    10 rounds (restricted)\n   
+      20 rounds (standard)\n    30 rounds (extended)"
+    sights: "\"Three-dot\" type: fixed or adjustable; 177.8\_mm (7\_in) sight radius"
+    bullet: 3
+  - index: 46
+    name: FN Minimi
+    type: ' Light machine gun
+
+      Squad automatic weapon'
+    placeoforigin: ' Belgium
+
+      United States'
+    inservice: " 1980\u2013present"
+    designer: ' Ernest Vervier'
+    designed: ' Early 1970s'
+    manufacturer: ' FN Herstal
+
+      FNH USA
+
+      Thales Australia
+
+      Beretta
+
+      Bofors
+      Carl Gustav
+
+      Pindad'
+    produced: " 1977\u2013present"
+    mass: "Standard model: 7.1\_kg (15.7\_lb)"
+    length: " Standard model: 1,040\_mm (40.9\_in)"
+    barrellength: " Standard model: 465\_mm (18.3\_in)"
+    cartridge: " Minimi: 5.56\xD745mm NATO\nMaximi: 7.62\xD751mm NATO"
+    caliber: ' 5.56mm/7.62mm'
+    rateoffire: " Minimi 5.56: 700\u20131,150 rounds/min\nMaximi 7.62: 800 rounds/min"
+    muzzlevelocity: " Standard model: 925\_m/s (3,035\_ft/s)"
+    effectivefiringrange: " 300\u20131,000 m sight adjustments"
+    maximumfiringrange: 
+    feedsystem: ' 100 or 200-round belt contained in a 100-round or 200-round soft
+      pouch, or 200-round box or 30-round M16-type STANAG magazine'
+    sights: ' Rear aperture, front post'
+    bullet: 1
+  - index: 47
+    name: 'FP-45 Liberator '
+    type: ' Single-shot pistol, derringer'
+    placeoforigin: ' United States'
+    inservice: " 1942\u20131945"
+    designer: ' George Hyde'
+    designed: ' May 1942'
+    manufacturer: ' Guide Lamp Division of General Motors Corporation'
+    produced: " June 1942 \u2013 August 1942"
+    mass: " 1\_lb (450\_g)"
+    length: " 5.55\_in (141\_mm)"
+    barrellength: " 4\_in (100\_mm)"
+    cartridge: ' .45 ACP'
+    caliber: 
+    rateoffire: 
+    muzzlevelocity: " 820\_ft/s (250\_m/s)"
+    effectivefiringrange: "8\_yd (7.3\_m)"
+    maximumfiringrange: 
+    feedsystem: ' Single-shot'
+    sights: 
+    bullet: 3
+  - index: 48
+    name: Heckler & Koch G36
+    type: Assault rifle
+    placeoforigin: ' Germany'
+    inservice: "1997\u2013present"
+    designer: ' Heckler & Koch'
+    designed: " 1990\u20131995"
+    manufacturer: " Heckler & Koch\nSanta B\xE1rbara Sistemas\nMilitary Industries
+      Corporation"
+    produced: " G36: 1996\u2013present\nG36K: 1997\u2013present\nG36C: 2001\u2013present"
+    mass: " G36: 3.63\_kg (8.00\_lb)"
+    length: "999\_mm (39.3\_in) stock extended / 758\_mm (29.8\_in) stock folded"
+    barrellength: "480\_mm (18.9\_in)"
+    cartridge: " 5.56\xD745mm NATO"
+    caliber: 
+    rateoffire: ' 750 rounds/min'
+    muzzlevelocity: "920\_m/s (3,018\_ft/s)"
+    effectivefiringrange: "800 metres (870\_yd)"
+    maximumfiringrange: " 2,860 metres (3,130\_yd)"
+    feedsystem: ' 30-round detachable box magazine or 100-round C-Mag drum magazine'
+    sights: " Reflex sight with 1\xD7 magnification, telescopic sight with 3\xD7
+      magnification (export version has a 1.5\xD7 magnified sight) and back-up fixed
+      notch sight"
+    bullet: 1
+  - index: 49
+    name: Heckler & Koch G3
+    type: ' Battle rifle'
+    placeoforigin: ' West Germany'
+    inservice: " 1959\u2013present"
+    designer: ' CETME
+
+      Mauser
+
+      Heckler & Koch'
+    designed: ' 1950s'
+    manufacturer: ' Heckler & Koch (original)
+
+      Rheinmetall
+
+      MIC
+
+      SEDENA
+
+      Kongsberg
+      Gruppen Pakistan Ordinance Factories
+
+      and others'
+    produced: "1958\u2013present"
+    mass: " 4.38\_kg (9.66\_lb) (G3A3)\n4.7\_kg (10\_lb) (G3A4)"
+    length: " 1,025\_mm (40.4\_in)"
+    barrellength: " 450\_mm (17.7\_in)"
+    cartridge: " 7.62\xD751mm NATO"
+    caliber: 
+    rateoffire: " 500\u2013600 rounds/min"
+    muzzlevelocity: " 800\_m/s (2,625\_ft/s)"
+    effectivefiringrange: " 200\u2013400 metres (219\u2013437\_yd) sight adjustments\n600
+      metres (656\_yd) with Fero Z24 telescopic sight"
+    maximumfiringrange: " 3,700 metres (4,046\_yd)"
+    feedsystem: ' 5-, 10-, 20-, 30-, or 40-round detachable box, and 50-round and
+      100-round drum magazine'
+    sights: ' Rear: rotary diopter; front: hooded post'
+    bullet: 1
+  - index: 50
+    name: 'Heckler & Koch HK416 '
+    type: ' Assault rifle'
+    placeoforigin: ' Germany'
+    inservice: " 2004\u2013present"
+    designer: 
+    designed: 
+    manufacturer: ' Heckler & Koch'
+    produced: "2004\u2013present"
+    mass: " 3.120\u20133.850\_kg (6.88\u20138.49\_lb) (A5 without magazine)\n3.740\u20134.470\_kg
+      (8.25\u20139.85\_lb) (A5 with full 30-round magazine)"
+    length: " 709\u20131,030\_mm (27.9\u201340.6\_in) (A5, retractable stock)"
+    barrellength: "HK416C: 9\_in (230\_mm)\nHK416D: 10.5\u201320\_in (270\u2013510\_mm)\nHK416F:
+      11\u201314.5\_in (280\u2013370\_mm)\nM27 IAR: 16.5\_in (420\_mm)"
+    cartridge: " 5.56\xD745mm NATO"
+    caliber: 
+    rateoffire: " 700\u2013900 rounds/min\n850 rounds/min (HK416 A5)"
+    muzzlevelocity: " 730\_m/s (9 in)\n788\_m/s (10.4 in)\n882\_m/s (14.5 in)\n890\_m/s
+      (16.5 in)\n917\_m/s (20 in)"
+    effectivefiringrange: " A5 11\u2033: 300 metres (330\_yd)\nA5 14.5\u2033: 500
+      metres (550\_yd)\nA5 16.5\u2033: 600 metres (660\_yd)\nA5 20\u2033: 800 metres
+      (870\_yd)"
+    maximumfiringrange: 
+    feedsystem: 10-, 20-, 30-round detachable STANAG magazine, 100-round detachable
+      Beta C-Mag
+    sights: " Picatinny rail\u2013mounted front and rear iron sights, optional removable
+      gas block-mounted flip-up front sight post"
+    bullet: 1
+  - index: 51
+    name: 'Howa Type 89 '
+    type: ' Assault rifle'
+    placeoforigin: Japan
+    inservice: " 1989\u2013present"
+    designer: ' Defense Agency Technical Research and Development Institute'
+    designed: 
+    manufacturer: ' Howa'
+    produced: " 1989\u2013present"
+    mass: " 3.5\_kg (7.7\_lb)"
+    length: " 916\_mm (36.1\_in), (670\_mm (26.4\_in) with Howa Type 89-F)"
+    barrellength: " 420\_mm (16.5\_in)"
+    cartridge: " 5.56\xD745mm NATO"
+    caliber: 
+    rateoffire: " 750\_rounds/min"
+    muzzlevelocity: " 920\_m/s"
+    effectivefiringrange: "500\_m"
+    maximumfiringrange: 
+    feedsystem: ' 20/30-round detachable STANAG magazines'
+    sights: ' Iron sights; optical sights can be placed with Weaver or Picatinny
+      railing mount'
+    bullet: 1
+  - index: 52
+    name: 'IMI Galil '
+    type: ' Assault rifle
+
+      Battle rifle'
+    placeoforigin: ' Israel'
+    inservice: " 1972\u2013present"
+    designer: ' Yisrael Galil
+
+      Yakov Lior'
+    designed: 
+    manufacturer: " Manufactured by:\n\n    Israel Military Industries\n\nLicensed
+      by:\n\n    Bernardelli\n    Indumil\n    Ka Pa Sa State Factories (Myanmar)\n   
+      Denel Land Systems\n    Punj Lloyd Raksha Systems (India)\n    Z111 Factory
+      (Vietnam)"
+    produced: " 1972\u20131998"
+    mass: " 3.75\_kg (8.27\_lb)"
+    length: "850\_mm (33\_in) stock extended / 614\_mm (24.2\_in) stock folded"
+    barrellength: "332\_mm (13.1\_in)"
+    cartridge: "    5.56\xD745mm NATO\n    7.62\xD751mm NATO\n    .30 Carbine (Magal
+      Variant)"
+    caliber: 
+    rateoffire: 650 rounds/min
+    muzzlevelocity: " 900\_m/s (2,953\_ft/s)"
+    effectivefiringrange: " 300\u2013500 m sight adjustments"
+    maximumfiringrange: 
+    feedsystem: "    5.56\xD745mm NATO: 35-, 50-, or 65-round detachable box magazine,
+      or 30-round STANAG magazine\n    7.62\xD751mm NATO: 25-round proprietary box
+      magazine\n    .30 Carbine: 15 or 30-round box magazine from the M1 Carbine,
+      and or 27-round box magazine (Magal Variant)"
+    sights: ' Flip-up rear aperture with protective ears, flip-up tritium night sights,
+      hooded front post'
+    bullet: 1
+  - index: 53
+    name: 'CheyTac Intervention '
+    type: ' Sniper rifle
+
+      Anti-materiel rifle'
+    placeoforigin: ' United States'
+    inservice: 
+    designer: 
+    designed: 
+    manufacturer: ' CheyTac USA LLC'
+    produced: " 2001\u2014present"
+    mass: " 31\_lb (14.1\_kg) without scope (M200)"
+    length: " 53\_in (1,300\_mm) (stock extended), 46.75\_in (1,187\_mm) (stock collapsed)
+      (M200/M310)"
+    barrellength: " 29\_in (740\_mm) in standard, 26\_in (660\_mm) optional.\n"
+    cartridge: ' .408 Cheyenne Tactical or .375 Cheyenne Tactical'
+    caliber: 
+    rateoffire: 
+    muzzlevelocity: " 3,000\_ft/s (914\_m/s)"
+    effectivefiringrange: "2,500\_m (2,734\_yd)+ - M200\n2,000\_m (2,187\_yd)+ -
+      M200 Carbine\n1,500\_m (1,640\_yd)+ - M200 CIV (Civilian)\n1,800\_m (1,969\_yd)+
+      - M310 SS\n(Single Shot)\n1,800\_m (1,969\_yd)+ - M310 R (Repeater)"
+    maximumfiringrange: 
+    feedsystem: ' 7-round detachable box magazine, 5-round detachable box magazine
+      (optional, or when 7-round magazine is prohibited by law).'
+    sights: Sights Day or night optics
+    bullet: 2
+  - index: 54
+    name: M1 Garand
+    type: ' Semi-automatic rifle'
+    placeoforigin: ' United States'
+    inservice: " \n\n    1936\u20131958 (as the standard U.S. service rifle)\n   
+      1940s\u2013present (other countries)\n\n"
+    designer: ' John C. Garand'
+    designed: 1928
+    manufacturer: " \n\n    Springfield Armory\n    Winchester\n    Harrington &
+      Richardson\n    International Harvester\n    Beretta\n    Breda[9]\n    F.M.A.P.\n   
+      Springfield Armory, Inc. (civilian)\n\n"
+    produced: " 1934\u20131957"
+    mass: " 9.5\_lb (4.31\_kg) to 11.6\_lb (5.3\_kg)"
+    length: " 43.5\_in (1,100\_mm)"
+    barrellength: " 24\_in (609.6\_mm)"
+    cartridge: " \n\n    .30-06 Springfield (7.62\xD763mm)\n    7.62\xD751mm NATO
+      (.308 Winchester) (Postwar use by U.S. Navy)\n\n"
+    caliber: 
+    rateoffire: " 40\u201350 rounds/min"
+    muzzlevelocity: " 2,800\_ft/s (853\_m/s)"
+    effectivefiringrange: " 500\_yd (457\_m)"
+    maximumfiringrange: 
+    feedsystem: ' 8-round en bloc clip, internal magazine'
+    sights: "    Rear: adjustable aperture\n    Front: wing protected post"
+    bullet: 1
+  - index: 55
+    name: Benelli M3
+    type: ' Combat shotgun'
+    placeoforigin: ' Italy'
+    inservice: 
+    designer: 
+    designed: 
+    manufacturer: ' Benelli'
+    produced: 1989
+    mass: " 3.27\_kg (7.21\_lb)"
+    length: ' 1200 mm (47 in)
+
+      1040 mm (41 in) (stock folded)'
+    barrellength: ' 500-660mm (20-26 in)
+
+      (average length, depends on model)'
+    cartridge: ' 12 or 20-gauge shells or slugs'
+    caliber: ' 12 or 20 gauge'
+    rateoffire: ' Semi-automatic'
+    muzzlevelocity: 
+    effectivefiringrange: 
+    maximumfiringrange: 
+    feedsystem: ' 7+1 round tubular magazine (Military)
+
+      5+1 round (Civilian)'
+    sights: 
+    bullet: 5
+  - index: 56
+    name: 'M14 rifle '
+    type: Type Battle rifle
+    placeoforigin: ' United States'
+    inservice: "1959\u2013present\n1959\u20131964 (as the standard U.S. service rifle)"
+    designer: 
+    designed: 1954
+    manufacturer: ' Springfield Armory
+
+      Winchester
+
+      Harrington & Richardson
+
+      Thompson-Ramo-Wooldridge,
+      Inc.'
+    produced: " 1959\u20131980"
+    mass: " 9.2\_lb (4.1\_kg) empty\n10.7\_lb (4.85\_kg) w/ loaded magazine"
+    length: " 44.3\_in (1,126\_mm)"
+    barrellength: " 22\_in (559\_mm)"
+    cartridge: " 7.62\xD751mm NATO (.308\_in)"
+    caliber: 
+    rateoffire: " 700\u2013750 rounds/min"
+    muzzlevelocity: " 2,800\_ft/s (853\_m/s)"
+    effectivefiringrange: "500\_yd (457\_m)\n875\_yd (800\_m)/3,725\_yd (3,406\_m)
+      maximum range"
+    maximumfiringrange: 
+    feedsystem: ' Stripper clips
+
+      20-round detachable box magazine'
+    sights: ' Aperture rear sight, "barleycorn" front sight'
+    bullet: 1
+  - index: 57
+    name: Milkor MGL
+    type: ' Revolver grenade launcher'
+    placeoforigin: ' South Africa'
+    inservice: " 1983\u2013present"
+    designer: ' Andries C. Piek'
+    designed: 1980
+    manufacturer: ' Milkor (Pty) Ltd'
+    produced: "1983\u2013present"
+    mass: " 5.3\_kg (12\_lb)"
+    length: "778\_mm (30.6\_in) stock extended, 565\_mm (22.2\_in) stock folded (MGL)\n812\_mm
+      (32.0\_in) stock extended, 711\_mm (28.0\_in) stock folded (MGL-140)"
+    barrellength: " 300\_mm (11.8\_in) (MGL)\n200\_mm (7.9\_in) (M32A1)"
+    cartridge: " 40\xD746mm grenade\n40\xD751mm grenade (SuperSix)"
+    caliber: 
+    rateoffire: ' 3 rounds/sec (MGL) (rapid fire)
+
+      18-21 rounds/min (sustained)'
+    muzzlevelocity: " 75\_m/s (250\_ft/s) (MGL), 125\_m/s (410\_ft/s) (XRGL40)"
+    effectivefiringrange: " 400\_m (440\_yd)\n800\_m (870\_yd) (ERLP ammunition)"
+    maximumfiringrange: 400 m
+    feedsystem: ' 6-round, revolver-type swing out cylinder'
+    sights: ' Armson OEG collimator sight in quadrant (MGL)
+
+      M2A1 reflex sight
+      (M32)'
+    bullet: 6
+  - index: 58
+    name: M60 machine gun
+    type: ' General-purpose machine gun
+
+      Medium machine gun'
+    placeoforigin: ' United States'
+    inservice: "1957\u2013present"
+    designer: 
+    designed: " 1952\u20131957"
+    manufacturer: " \n\n    Saco Defense\n    U.S. Ordnance\n\n"
+    produced: " 1957\u2013present"
+    mass: " 10.5\_kg (23.15\_lb)"
+    length: " 1,105\_mm (43.5\_in)"
+    barrellength: "560\_mm (22.0\_in)"
+    cartridge: " 7.62\xD751mm NATO"
+    caliber: " 7.62\_mm (0.308 in)"
+    rateoffire: " 550\u2013650 RPM"
+    muzzlevelocity: ' 2,800 ft/s (853 m/s)'
+    effectivefiringrange: '1,200 yd (1,100 m) '
+    maximumfiringrange: 4,073 yd (3,725 m)
+    feedsystem: ' Disintegrating belt with M13 Links'
+    sights: ' Iron sights'
+    bullet: 1
+  - index: 59
+    name: Beretta 93R
+    type: ' Machine pistol'
+    placeoforigin: ' Italy'
+    inservice: 
+    designer: 
+    designed: ' 1977-1979'
+    manufacturer: ' Beretta'
+    produced: ' 1979-1993'
+    mass: "1.17\_kg (2.6\_lb) empty"
+    length: " 240\_mm (9.4\_in)"
+    barrellength: " 125\_mm (4.9\_in)\n(156\_mm (6.1\_in) with compensator)"
+    cartridge: " 9\xD719mm Parabellum"
+    caliber: "9\_mm (0.35\_in)"
+    rateoffire: ' 1,100 round/min (3-round burst)'
+    muzzlevelocity: " 380\_m/s (1,200\_ft/s)"
+    effectivefiringrange: " 50\_m (160\_ft)"
+    maximumfiringrange: 
+    feedsystem: ' 15-, 20-, or 30-round box magazine'
+    sights: ' Iron sights'
+    bullet: 3
+  - index: 60
+    name: Remington Model 870
+    type: ' Shotgun'
+    placeoforigin: ' United States'
+    inservice: "1950\u2013present"
+    designer: ' L.Ray Crittendon, Phillip Haskell, Ellis Hailston, G.E. Pinckney'
+    designed: 1950
+    manufacturer: ' Remington Arms'
+    produced: " 1950\u2013present"
+    mass: " 7.0\_lb (3.2\_kg) to 8.0\_lb (3.6\_kg)"
+    length: " 26.3\_in (670\_mm) to 50.5\_in (1,280\_mm)"
+    barrellength: " 14\_in (360\_mm) to 30\_in (760\_mm)"
+    cartridge: ' 12 gauge, 16 gauge, 20 gauge, 28 gauge, or .410 bore'
+    caliber: 
+    rateoffire: 
+    muzzlevelocity: 
+    effectivefiringrange: 
+    maximumfiringrange: 
+    feedsystem: ' 3+1, 4+1, 5+1, 6+1, or 7+1 round internal tube magazine, or an
+      external 6+1 box magazine'
+    sights: ' Bead, twin bead, adjustable open sights, or ghost ring (all iron sights).
+      Also cantilever and receiver-mounts for scopes'
+    bullet: 5
+  - index: 61
+    name: Glisenti Model 1910
+    type: ' Service pistol'
+    placeoforigin: ' Kingdom of Italy and United Kingdom'
+    inservice: 
+    designer: ' Bethel Abiel Revelli'
+    designed: 
+    manufacturer: " Metallurgica Brescia gi\xE0 Tempini\nSociet\xE0 Siderurgica Glisenti"
+    produced: " 1910\u20131915"
+    mass: " 820\_g (1\_lb 13\_oz) Unloaded"
+    length: ' 207mm (8.15 in)'
+    barrellength: ' 100mm (3.94 in)'
+    cartridge: ' 9 mm Glisenti'
+    caliber: 
+    rateoffire: 
+    muzzlevelocity: ' 305 m/s (1,000 ft/s)'
+    effectivefiringrange: 
+    maximumfiringrange: 
+    feedsystem: ' 7-round detachable box magazine'
+    sights: ' Fixed front blade and rear notch'
+    bullet: 3
+  - index: 62
+    name: FN Model 1910
+    type: ' Semi-automatic pistol'
+    placeoforigin: ' Belgium'
+    inservice: 
+    designer: ' John Browning'
+    designed: 
+    manufacturer: ' Fabrique Nationale (FN)'
+    produced: " 1910\u20131983"
+    mass: " \n\n    Model 1910: c. 590 g\n    Model 1922: c. 700 g (unloaded)\n\n"
+    length: " \n\n    Model 1910: 153 mm\n    Model 1922: 178 mm\n\n"
+    barrellength: 
+    cartridge: " \n\n    9\xD717mm Browning\n    7.65\xD717mm Browning\n\n"
+    caliber: 
+    rateoffire: 
+    muzzlevelocity: 
+    effectivefiringrange: 
+    maximumfiringrange: 
+    feedsystem: " \n\n    Model 1910: 6-round (.380) or 7-round (.32) detachable
+      box magazine\n    Model 1922: 8-round (.380) or 9-round (.32) detachable box
+      magazine\n\n"
+    sights: ' Notch and post iron sights'
+    bullet: 3
+  - index: 63
+    name: MAC-10
+    type: ' Machine pistol
+
+      Submachine gun'
+    placeoforigin: United States
+    inservice: " 1970\u2013present"
+    designer: ' Gordon B. Ingram'
+    designed: 1964
+    manufacturer: ' Military Armament Corporation'
+    produced: " 1970\u20131973"
+    mass: ' 2.84 kg (6.26 pounds) empty without suppressor'
+    length: " \n\n    269 mm (10.7 inches) with stock removed\n    295 mm (11.6 inches)
+      with stock retracted\n    548 mm (1 foot 9.6 inches) with stock extended\n   
+      545 mm (1 foot 9.45 inches) with stock retracted w/suppressor\n    798 mm (2
+      feet 7.4 inches) with stock extended with suppressor\n\n"
+    barrellength: ' 146 mm (5.75 inches)'
+    cartridge: " \n\n    .45 ACP (11.43\xD723mm)\n    9\xD719mm Parabellum\n\n"
+    caliber: 
+    rateoffire: " \n\n    1,200-1500 rounds/min. (9mm)\n    1,090 rounds/min. (45
+      ACP)\n\n"
+    muzzlevelocity: " \n\n    366 m/s (1,201 ft/s) for 9mm\n    280 m/s (919 ft/s)
+      for .45 ACP\n\n\n"
+    effectivefiringrange: " \n\n    50 meters (.45 ACP)\n    70 meters (9\xD719mm
+      Parabellum)"
+    maximumfiringrange: ' 100 meters (for .45 ACP)'
+    feedsystem: " \n\n    30-round detachable box magazine (.45 ACP)\n    32-round
+      detachable box magazine (9\xD719mm)\n\n"
+    sights: ' Iron sights'
+    bullet: 3
+  - index: 64
+    name: 'Magpul FMG-9 '
+    type: ' Submachine gun'
+    placeoforigin: United States
+    inservice: 
+    designer: 
+    designed: 2008
+    manufacturer: Magpul Industries
+    produced: 
+    mass: " 0.5\_kg (1.1\_lb)"
+    length: "503\_mm (19.8\_in) (extended)\n262\_mm (10.3\_in) (folded)"
+    barrellength: " 168\_mm (6.6\_in)\n"
+    cartridge: " 9\xD719mm Parabellum"
+    caliber: 
+    rateoffire: ' About 1200 rpm'
+    muzzlevelocity: ' 380 m/s'
+    effectivefiringrange: 
+    maximumfiringrange: 
+    feedsystem: ' 32-round box magazine or 33 round box magazine'
+    sights: 
+    bullet: 3
+  - index: 65
+    name: M134 Minigun
+    type: ' Rotary medium machine gun'
+    placeoforigin: ' United States'
+    inservice: "1963\u2013present"
+    designer: ' General Electric'
+    designed: 1960
+    manufacturer: " \n\n    General Electric\n    Dillon Aero\n    Garwood Industries\n   
+      Profense\n\n"
+    produced: " 1962\u2013present"
+    mass: " 85\_lb (39\_kg), 41\_lb (19\_kg) lightweight mod."
+    length: " 801.6\_mm (31.56\_in)"
+    barrellength: " 558.8\_mm (22.00\_in)"
+    cartridge: " 7.62\xD751mm NATO"
+    caliber: ' 7.62 mm (0.308 in)'
+    rateoffire: "Variable, 2,000\u20136,000 rpm"
+    muzzlevelocity: " 2,800\_ft/s (853\_m/s)"
+    effectivefiringrange: 
+    maximumfiringrange: " 3,280\_ft (1,000\_m; 1,090\_yd)"
+    feedsystem: ' Disintegrating M13 linked belt or linkless feed; dependent on installation
+      [500-5,000-round belt]'
+    sights: ' Dependent on installation; no fixed sights'
+    bullet: 1
