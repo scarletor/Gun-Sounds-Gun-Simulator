@@ -26,6 +26,10 @@ MonoBehaviour:
     name: Name
     isEnable: 0
     isArray: 0
+  - type: 8
+    name: Semi
+    isEnable: 0
+    isArray: 0
   - type: 0
     name: Type
     isEnable: 0

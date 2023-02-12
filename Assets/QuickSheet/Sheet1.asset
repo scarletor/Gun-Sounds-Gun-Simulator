@@ -17,6 +17,7 @@ MonoBehaviour:
   dataArray:
   - index: 0
     name: 
+    semi: 0
     type: 
     placeoforigin: 
     inservice: 
@@ -38,6 +39,7 @@ MonoBehaviour:
     bullet: 
   - index: 1
     name: m16
+    semi: 1
     type: Assault rifle
     placeoforigin: United States
     inservice: "1964\u2013present"
@@ -78,6 +80,7 @@ MonoBehaviour:
     bullet: 1
   - index: 2
     name: Barrett M82
+    semi: 1
     type: Anti-materiel rifle
     placeoforigin: United States
     inservice: "1989\u2013present"
@@ -103,6 +106,7 @@ MonoBehaviour:
     bullet: 2
   - index: 3
     name: AK47
+    semi: 1
     type: Assault rifle
     placeoforigin: Soviet Union
     inservice: "1949\u20131974 (Soviet Union)\n1949\u2013present (other countries)\n"
@@ -172,6 +176,7 @@ MonoBehaviour:
     bullet: 1
   - index: 4
     name: 'ArmaLite AR-15 '
+    semi: 1
     type: ' Assault rifle'
     placeoforigin: ' United States'
     inservice: "1962\u20131963"
@@ -193,6 +198,7 @@ MonoBehaviour:
     bullet: 1
   - index: 5
     name: AWN
+    semi: 1
     type: ' Sniper rifle'
     placeoforigin: ' United Kingdom'
     inservice: "1982 (L96A1), 1988 (AW), 1990\u2013presen"
@@ -218,6 +224,7 @@ MonoBehaviour:
     bullet: 2
   - index: 6
     name: 'Star Model BM '
+    semi: 0
     type: ' Semi-Automatic Pistol'
     placeoforigin: Spain
     inservice: 
@@ -239,6 +246,7 @@ MonoBehaviour:
     bullet: 3
   - index: 7
     name: Desert Eagle
+    semi: 0
     type: ' Semi-automatic pistol'
     placeoforigin: ' United States/Israel'
     inservice: 
@@ -267,6 +275,7 @@ MonoBehaviour:
     bullet: 3
   - index: 8
     name: FAMAS
+    semi: 1
     type: ' Bullpup assault rifle'
     placeoforigin: ' France'
     inservice: " 1978\u2013present"
@@ -290,6 +299,7 @@ MonoBehaviour:
     bullet: 1
   - index: 9
     name: SCAR-SSR
+    semi: 1
     type: Designated marksman rifle/Sniper rifle
     placeoforigin: ' Belgium'
     inservice: " 2009\u2013present"
@@ -312,6 +322,7 @@ MonoBehaviour:
     bullet: 2
   - index: 10
     name: SCAR-L
+    semi: 1
     type: ' Assault rifle  '
     placeoforigin: ' Belgium'
     inservice: " 2009\u2013present"
@@ -335,6 +346,7 @@ MonoBehaviour:
     bullet: 1
   - index: 11
     name: Glock 21
+    semi: 0
     type: '
 
       Semi-automatic pistol'
@@ -362,6 +374,7 @@ MonoBehaviour:
     bullet: 3
   - index: 12
     name: M4
+    semi: 1
     type: ' Assault rifle'
     placeoforigin: United States
     inservice: " 1994\u2013present"
@@ -384,6 +397,7 @@ MonoBehaviour:
     bullet: 1
   - index: 13
     name: M4A1
+    semi: 1
     type: ' Assault Rifle
 
       Carbine'
@@ -407,6 +421,7 @@ MonoBehaviour:
     bullet: 1
   - index: 14
     name: M1911
+    semi: 0
     type: ' Semi-automatic pistol'
     placeoforigin: United States
     inservice: " 1911\u2013present"
@@ -429,6 +444,7 @@ MonoBehaviour:
     bullet: 3
   - index: 15
     name: 'Mauser C96 '
+    semi: 0
     type: " \nSemi-automatic pistol"
     placeoforigin: ' German Empire'
     inservice: " 1896\u20131961"
@@ -458,6 +474,7 @@ MonoBehaviour:
     bullet: 3
   - index: 16
     name: MP5
+    semi: 1
     type: ' Submachine gun'
     placeoforigin: ' West Germany'
     inservice: "1966\u2013present"
@@ -481,6 +498,7 @@ MonoBehaviour:
     bullet: 3
   - index: 17
     name: PK machine gun
+    semi: 1
     type: ' General-purpose machine gun
 
       Squad automatic weapon
@@ -511,6 +529,7 @@ MonoBehaviour:
     bullet: 1
   - index: 18
     name: 'Colt Anaconda '
+    semi: 0
     type: ' Revolver '
     placeoforigin: ' United States'
     inservice: 
@@ -535,6 +554,7 @@ MonoBehaviour:
     bullet: 3
   - index: 19
     name: TEC-9
+    semi: 1
     type: ' Semi-automatic pistol
 
       Pistol-caliber carbine'
@@ -558,6 +578,7 @@ MonoBehaviour:
     bullet: 3
   - index: 20
     name: UZI
+    semi: 1
     type: ' Submachine gun'
     placeoforigin: ' Israel'
     inservice: "1954\u2013present"
@@ -583,6 +604,7 @@ MonoBehaviour:
     bullet: 3
   - index: 21
     name: Thompson
+    semi: 1
     type: ' Submachine gun'
     placeoforigin: ' United States'
     inservice: " 1938\u20131971 (U.S. military)"
@@ -610,6 +632,7 @@ MonoBehaviour:
     bullet: 3
   - index: 22
     name: UMP-45
+    semi: 1
     type: ' Submachine gun'
     placeoforigin: ' Germany'
     inservice: " 2000\u2013present"
@@ -637,6 +660,7 @@ MonoBehaviour:
 
 
 '
+    semi: 1
     type: "\n    Assault rifle\n    Automatic rifle\n    Light machine gun\n    Sniper
       rifle/Designated marksman rifle\n    Personal defense weapon\n\n"
     placeoforigin: " \n\n    Germany\n    United States\n\n"
@@ -659,6 +683,7 @@ MonoBehaviour:
     bullet: 1
   - index: 24
     name: 'RPG-7 '
+    semi: 1
     type: ' Rocket-propelled grenade launcher'
     placeoforigin: ' Soviet Union'
     inservice: "1961\u2013present"
@@ -681,6 +706,7 @@ MonoBehaviour:
     bullet: 4
   - index: 25
     name: Winchester rifle
+    semi: 1
     type: ' Lever action rifle'
     placeoforigin: ' United States'
     inservice: "1866\u20131945"
@@ -713,6 +739,7 @@ MonoBehaviour:
     bullet: 2
   - index: 26
     name: "\u0160korpion"
+    semi: 1
     type: ' Machine pistol
 
       Submachine gun'
@@ -738,6 +765,7 @@ MonoBehaviour:
     bullet: 3
   - index: 27
     name: 'MG 42 '
+    semi: 1
     type: ' General-purpose machine gun'
     placeoforigin: ' Nazi Germany'
     inservice: " 1942\u2013present"
@@ -766,6 +794,7 @@ MonoBehaviour:
     bullet: 1
   - index: 28
     name: RPK
+    semi: 1
     type: ' Automatic rifle
 
       Light machine gun
@@ -793,6 +822,7 @@ MonoBehaviour:
     bullet: 1
   - index: 29
     name: 'Walther MP '
+    semi: 1
     type: ' Machine pistol'
     placeoforigin: ' West Germany'
     inservice: " 1963\u2013present"
@@ -814,6 +844,7 @@ MonoBehaviour:
     bullet: 3
   - index: 30
     name: Spectre M4
+    semi: 1
     type: ' Submachine gun'
     placeoforigin: ' Italy'
     inservice: 
@@ -840,6 +871,7 @@ MonoBehaviour:
     bullet: 3
   - index: 31
     name: 'SA80 '
+    semi: 1
     type: ' Bullpup assault rifle      Carbine'
     placeoforigin: ' United Kingdom'
     inservice: " 1985\u2013present"
@@ -865,6 +897,7 @@ MonoBehaviour:
     bullet: 1
   - index: 32
     name: 'Heckler & Koch G11 '
+    semi: 1
     type: ' Assault rifle'
     placeoforigin: ' West Germany'
     inservice: 
@@ -889,6 +922,7 @@ MonoBehaviour:
     bullet: 1
   - index: 33
     name: 'Atchisson AA-12 '
+    semi: 1
     type: ' Automatic combat shotgun'
     placeoforigin: ' United States'
     inservice: 
@@ -915,6 +949,7 @@ MonoBehaviour:
     bullet: 5
   - index: 34
     name: 'AK-102 '
+    semi: 1
     type: ' Assault rifle, carbine'
     placeoforigin: ' Russia'
     inservice: " 1995\u2013present"
@@ -937,6 +972,7 @@ MonoBehaviour:
     bullet: 1
   - index: 35
     name: 'Benelli M4 Super 90 '
+    semi: 1
     type: ' Semi-automatic combat shotgun'
     placeoforigin: ' Italy'
     inservice: " 1999\u2013present"
@@ -959,6 +995,7 @@ MonoBehaviour:
     bullet: 5
   - index: 36
     name: M2 Browning
+    semi: 1
     type: ' Heavy machine gun'
     placeoforigin: ' United States'
     inservice: " 1933\u2013present"
@@ -983,6 +1020,7 @@ MonoBehaviour:
     bullet: 1
   - index: 37
     name: Colt Delta Elite
+    semi: 0
     type: ' Semi-automatic pistol'
     placeoforigin: ' United States'
     inservice: ' Various Sheriffs and Law Enforcement on the United States border'
@@ -1004,6 +1042,7 @@ MonoBehaviour:
     bullet: 3
   - index: 38
     name: Colt Detective Special
+    semi: 0
     type: ' Revolver'
     placeoforigin: ' United States'
     inservice: 
@@ -1030,6 +1069,7 @@ MonoBehaviour:
     bullet: 3
   - index: 39
     name: Colt Python
+    semi: 0
     type: ' Revolver'
     placeoforigin: ' United States'
     inservice: 
@@ -1051,6 +1091,7 @@ MonoBehaviour:
     bullet: 3
   - index: 40
     name: CZ 75
+    semi: 1
     type: " \n\n    Semi-automatic pistol\n    Machine pistol (select-fire variants)\n\n"
     placeoforigin: ' Czechoslovak Socialist Republic'
     inservice: " 1976\u2013present"
@@ -1073,6 +1114,7 @@ MonoBehaviour:
     bullet: 3
   - index: 41
     name: Bren Ten
+    semi: 1
     type: ' Semi-automatic pistol'
     placeoforigin: ' United States'
     inservice: 
@@ -1100,6 +1142,7 @@ MonoBehaviour:
     name: '
 
       FN F2000'
+    semi: 1
     type: ' Bullpup assault rifle'
     placeoforigin: ' Belgium'
     inservice: " 2001\u2013present"
@@ -1122,6 +1165,7 @@ MonoBehaviour:
     bullet: 1
   - index: 43
     name: FN FAL
+    semi: 1
     type: ' Battle rifle'
     placeoforigin: ' Belgium'
     inservice: " 1953\u2013present"
@@ -1145,6 +1189,7 @@ MonoBehaviour:
     bullet: 1
   - index: 44
     name: 'Browning Hi-Power '
+    semi: 0
     type: ' Semi-automatic pistol'
     placeoforigin: " \n\n    Belgium\n    United States\n\n"
     inservice: "1935\u2013present"
@@ -1169,6 +1214,7 @@ MonoBehaviour:
     bullet: 3
   - index: 45
     name: FN Five-seven
+    semi: 0
     type: ' Semi-automatic pistol'
     placeoforigin: ' Belgium'
     inservice: " 2000\u2013present"
@@ -1192,6 +1238,7 @@ MonoBehaviour:
     bullet: 3
   - index: 46
     name: FN Minimi
+    semi: 1
     type: ' Light machine gun
 
       Squad automatic weapon'
@@ -1229,6 +1276,7 @@ MonoBehaviour:
     bullet: 1
   - index: 47
     name: 'FP-45 Liberator '
+    semi: 0
     type: ' Single-shot pistol, derringer'
     placeoforigin: ' United States'
     inservice: " 1942\u20131945"
@@ -1250,6 +1298,7 @@ MonoBehaviour:
     bullet: 3
   - index: 48
     name: Heckler & Koch G36
+    semi: 1
     type: Assault rifle
     placeoforigin: ' Germany'
     inservice: "1997\u2013present"
@@ -1274,6 +1323,7 @@ MonoBehaviour:
     bullet: 1
   - index: 49
     name: Heckler & Koch G3
+    semi: 1
     type: ' Battle rifle'
     placeoforigin: ' West Germany'
     inservice: " 1959\u2013present"
@@ -1312,6 +1362,7 @@ MonoBehaviour:
     bullet: 1
   - index: 50
     name: 'Heckler & Koch HK416 '
+    semi: 1
     type: ' Assault rifle'
     placeoforigin: ' Germany'
     inservice: " 2004\u2013present"
@@ -1340,6 +1391,7 @@ MonoBehaviour:
     bullet: 1
   - index: 51
     name: 'Howa Type 89 '
+    semi: 1
     type: ' Assault rifle'
     placeoforigin: Japan
     inservice: " 1989\u2013present"
@@ -1362,6 +1414,7 @@ MonoBehaviour:
     bullet: 1
   - index: 52
     name: 'IMI Galil '
+    semi: 1
     type: ' Assault rifle
 
       Battle rifle'
@@ -1395,6 +1448,7 @@ MonoBehaviour:
     bullet: 1
   - index: 53
     name: 'CheyTac Intervention '
+    semi: 1
     type: ' Sniper rifle
 
       Anti-materiel rifle'
@@ -1422,6 +1476,7 @@ MonoBehaviour:
     bullet: 2
   - index: 54
     name: M1 Garand
+    semi: 1
     type: ' Semi-automatic rifle'
     placeoforigin: ' United States'
     inservice: " \n\n    1936\u20131958 (as the standard U.S. service rifle)\n   
@@ -1447,6 +1502,7 @@ MonoBehaviour:
     bullet: 1
   - index: 55
     name: Benelli M3
+    semi: 1
     type: ' Combat shotgun'
     placeoforigin: ' Italy'
     inservice: 
@@ -1474,6 +1530,7 @@ MonoBehaviour:
     bullet: 5
   - index: 56
     name: 'M14 rifle '
+    semi: 1
     type: Type Battle rifle
     placeoforigin: ' United States'
     inservice: "1959\u2013present\n1959\u20131964 (as the standard U.S. service rifle)"
@@ -1505,6 +1562,7 @@ MonoBehaviour:
     bullet: 1
   - index: 57
     name: Milkor MGL
+    semi: 1
     type: ' Revolver grenade launcher'
     placeoforigin: ' South Africa'
     inservice: " 1983\u2013present"
@@ -1532,6 +1590,7 @@ MonoBehaviour:
     bullet: 6
   - index: 58
     name: M60 machine gun
+    semi: 1
     type: ' General-purpose machine gun
 
       Medium machine gun'
@@ -1555,6 +1614,7 @@ MonoBehaviour:
     bullet: 1
   - index: 59
     name: Beretta 93R
+    semi: 0
     type: ' Machine pistol'
     placeoforigin: ' Italy'
     inservice: 
@@ -1576,6 +1636,7 @@ MonoBehaviour:
     bullet: 3
   - index: 60
     name: Remington Model 870
+    semi: 1
     type: ' Shotgun'
     placeoforigin: ' United States'
     inservice: "1950\u2013present"
@@ -1599,6 +1660,7 @@ MonoBehaviour:
     bullet: 5
   - index: 61
     name: Glisenti Model 1910
+    semi: 0
     type: ' Service pistol'
     placeoforigin: ' Kingdom of Italy and United Kingdom'
     inservice: 
@@ -1620,6 +1682,7 @@ MonoBehaviour:
     bullet: 3
   - index: 62
     name: FN Model 1910
+    semi: 0
     type: ' Semi-automatic pistol'
     placeoforigin: ' Belgium'
     inservice: 
@@ -1643,6 +1706,7 @@ MonoBehaviour:
     bullet: 3
   - index: 63
     name: MAC-10
+    semi: 1
     type: ' Machine pistol
 
       Submachine gun'
@@ -1673,6 +1737,7 @@ MonoBehaviour:
     bullet: 3
   - index: 64
     name: 'Magpul FMG-9 '
+    semi: 1
     type: ' Submachine gun'
     placeoforigin: United States
     inservice: 
@@ -1694,6 +1759,7 @@ MonoBehaviour:
     bullet: 3
   - index: 65
     name: M134 Minigun
+    semi: 1
     type: ' Rotary medium machine gun'
     placeoforigin: ' United States'
     inservice: "1963\u2013present"

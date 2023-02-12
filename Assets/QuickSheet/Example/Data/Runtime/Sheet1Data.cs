@@ -17,6 +17,10 @@ public class Sheet1Data
   public string Name { get {return name; } set { this.name = value;} }
   
   [SerializeField]
+  bool semi;
+  public bool Semi { get {return semi; } set { this.semi = value;} }
+  
+  [SerializeField]
   string type;
   public string Type { get {return type; } set { this.type = value;} }
   

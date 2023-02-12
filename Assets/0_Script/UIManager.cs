@@ -4,21 +4,12 @@ using UnityEngine;
 using Sirenix.OdinInspector;
 public class UIManager : MonoBehaviour
 {
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    public static UIManager instance;
+    private void Awake()
+    {
+        if (instance != null) Debug.LogError("Multi ins");
+        instance = this;
+    }
 
 
 
@@ -32,6 +23,9 @@ public class UIManager : MonoBehaviour
 
 
 
+    public UIGunFire gunFireUI;
+    public UIGunSelect selectGunUI;
+    public GameObject homeUI;
 
 }
 

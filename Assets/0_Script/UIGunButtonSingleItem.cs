@@ -18,7 +18,7 @@ public class UIGunButtonSingleItem : MonoBehaviour
 
 
 
-
+    public int myID;
     public List<Sprite> backgroundSprite;
     public Sheet1 dataGun;
     public void SetupSelf()
@@ -27,15 +27,18 @@ public class UIGunButtonSingleItem : MonoBehaviour
         gameObject.GetComponent<Image>().sprite = backgroundSprite[rd]; //random background
 
 
-        var myId = Int32.Parse(Regex.Match(gameObject.name, @"\d+").Value);
+        myID = Int32.Parse(Regex.Match(gameObject.name, @"\d+").Value);
 
-        gameObject.transform.GetChild(1).GetComponent<TextMeshProUGUI>().text = dataGun.dataArray[myId].Name;
+        gameObject.transform.GetChild(1).GetComponent<TextMeshProUGUI>().text = dataGun.dataArray[myID].Name;
 
-
+        GetComponent<Button>().onClick.AddListener(() => { OnClickMe(); });
 
     }
 
 
-
+    public void OnClickMe()
+    {
+        UIManager.instance.selectGunUI.OnClickSelectGun(gameObject);
+    }
 
 }
