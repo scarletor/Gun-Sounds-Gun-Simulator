@@ -20,17 +20,10 @@ public class UIGunSelect : MonoBehaviour
 
 
 
-
-
-
-
-
-
-
     public void OnClickSelectGun(GameObject go)
     {
         UIManager.instance.gunFireUI.SpawnGun(go);
-        UIManager.instance.selectGunUI.gameObject.SetActive(false);
+        UIManager.instance.gunSeletUI.gameObject.SetActive(false);
     }
 
 

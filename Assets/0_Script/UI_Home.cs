@@ -18,7 +18,7 @@ public class UI_Home : MonoBehaviour
 
     public float time;
 
-    public GameObject startPos, endPos, gunList, target;
+    public GameObject startPos, endPos, gunList, target, playBtn;
     public void GunScroll()
     {
         gunList.transform.DOMoveX(target.transform.position.x, time).SetEase(Ease.InOutBounce).OnComplete(() =>
@@ -35,9 +35,9 @@ public class UI_Home : MonoBehaviour
     public Ease easeUp, easeDown;
     public void Scale()
     {
-        transform.DOScale(scaleUpValue, timeUp).SetEase(easeUp).OnComplete(() =>
+        playBtn.transform.DOScale(scaleUpValue, timeUp).SetEase(easeUp).OnComplete(() =>
         {
-            transform.DOScale(scaleDownValue, timeDown).SetEase(easeDown).OnComplete(() =>
+            playBtn.transform.DOScale(scaleDownValue, timeDown).SetEase(easeDown).OnComplete(() =>
             {
                 Scale();
             });
@@ -45,8 +45,11 @@ public class UI_Home : MonoBehaviour
     }
 
 
-
-
+    
+    public void OnClickPlayBtn()
+    {
+        UIManager.instance.OnClickPlayBtn();
+    }
 
 
 
