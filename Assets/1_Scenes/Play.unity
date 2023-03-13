@@ -9739,6 +9739,8 @@ MonoBehaviour:
   _flash: {fileID: 1655971248}
   _buletList: {fileID: 1836408461}
   infoGun: {fileID: 0}
+  swipeThreshold: 50
+  timeThreshold: 0.3
 --- !u!1 &1734135580
 GameObject:
   m_ObjectHideFlags: 0
