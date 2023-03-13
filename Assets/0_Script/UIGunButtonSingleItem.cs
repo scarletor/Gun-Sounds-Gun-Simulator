@@ -38,7 +38,8 @@ public class UIGunButtonSingleItem : MonoBehaviour
 
     public void OnClickMe()
     {
-        UIManager.instance.gunSeletUI.OnClickSelectGun(gameObject);
+        UIGunSelect.instance.OnClickSelectGun(gameObject);
+
     }
 
 }

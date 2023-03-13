@@ -18,7 +18,7 @@ public class UI_Home : MonoBehaviour
 
     public float time;
 
-    public GameObject startPos, endPos, gunList, target, playBtn;
+    public GameObject startPos, endPos, gunList, target, playBtn,contents;
     public void GunScroll()
     {
         gunList.transform.DOMoveX(target.transform.position.x, time).SetEase(Ease.InOutBounce).OnComplete(() =>
@@ -48,7 +48,8 @@ public class UI_Home : MonoBehaviour
     
     public void OnClickPlayBtn()
     {
-        UIManager.instance.OnClickPlayBtn();
+        contents.SetActive(false);
+        UIGunSelect.instance.contents.SetActive(true);
     }
 
 

@@ -20,8 +20,8 @@ public class UIManager : MonoBehaviour
 
     public void OnClickPlayBtn()
     {
-        homeUI.gameObject.SetActive(false);
-        gunSeletUI.gameObject.SetActive(true);
+        //homeUI.gameObject.SetActive(false);
+        //gunSeletUI.gameObject.SetActive(true);
     }
 
 
@@ -32,7 +32,7 @@ public class UIManager : MonoBehaviour
     public UIGunSelect gunSeletUI;
     public GameObject homeUI;
 
-
+    public int curIndex;
 
 
 

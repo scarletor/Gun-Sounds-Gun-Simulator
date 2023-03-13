@@ -1,29 +1,29 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System.Text.RegularExpressions;
 
 public class UIGunSelect : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+
+    public static UIGunSelect instance;
+    private void Awake()
     {
-        
+        instance = this;
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
-
-
-
-
+    public GameObject contents;
     public void OnClickSelectGun(GameObject go)
     {
         UIManager.instance.gunFireUI.SpawnGun(go);
-        UIManager.instance.gunSeletUI.gameObject.SetActive(false);
+        contents.SetActive(false);
+
+
+        Regex re = new Regex(@"\d+");
+        Match m = re.Match(go.name);
+
+        int index = int.Parse(m.Value);
+
     }
 
 
